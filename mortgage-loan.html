@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>借贷专区-抵押贷</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/mortgage.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="enroll-1.html">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html">
+            <div class="logo"></div>
+        </a>
+        <div class="nav-list">
+            <ul>
+                <li><a target="_blank" href="index.html">首页</a></li>
+                <li><a target="_blank" href="invest.html">投资理财</a></li>
+                <li><a target="_blank" href="borrow-money.html" class="red">借贷专区</a></li>
+                <li><a target="_blank" href="secure.html">安全保障</a></li>
+                <li><a target="_blank" href="anenst.html">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a target="_blank" href="my-account.html" class="my-cons"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd clearfix">
+    <div class="banner">
+        <a href="#information" id="money-btn">立即申请</a>
+        <!-- <div class="apply">
+             <div class="content" id="apply-moneys">
+                 <h3 style="margin:20px 0 25px 0;">申请贷款</h3>
+                 <form class="applyForm" id="applyForm1" onsubmit="" method="POST" action="apply-success.html" target="_blank">
+                     <div class="name clearfix">
+                         <input type="text" maxlength="2" placeholder="您的姓名" name="xin" autofocus autocomplete="off" class="input-error">
+                         <div class="sex">
+                             <label class=""><input name="sex" type="radio" value=""><span>先生</span></label>
+                             <label class="checked"><input name="sex" type="radio" value="" checked="checked"><span class="mr0">女士</span></label>
+                         </div>
+                     </div>
+                     <div class="sum clearfix">
+                         <input onkeyup="this.value=this.value.replace(/[^0-9|\.^]/g,'');" onafterpaste="this.value=this.value.replace(/\D/g,'');" maxlength="5" placeholder="贷款金额 (万元)" name="money" type="text" accept="number" autocomplete="off" class="input-error">
+                         <div class="area ul-select">
+                             <input type="text" class="dropdown" placeholder="请输入城市"><i class="dropdown-arrow"></i>
+                         </div>
+                     </div>
+                     <div class="tel">
+                         <input type="text" maxlength="11" name="phone" onkeyup="this.value=this.value.replace(/[^0-9|\.^]/g,'');" onafterpaste="this.value=this.value.replace(/\D/g,'');" placeholder="输入手机号" accept="number" autocomplete="off" class="input-error">
+                     </div>
+                     <div class="main-captcha clearfix">
+                         <input type="text" maxlength="4" name="checkCode" id="checkCode" placeholder="输入图形验证码" value="">
+                         <img src="http://cq.edai.com/authImg/show/" class="authimg" id="authimg" style="cursor:pointer;" onclick="this.src=this.src + Math.ceil(Math.random()*10000)" title="看不清？换一张">
+                     </div>
+                     <input type="hidden" name="tmpId" id="tmpid" value="">
+                     <input type="hidden" value="0" name="isUrl" id="isUrl">
+                     <input type="hidden" name="fromAnli" id="fromAnli" value="0">
+                     <input type="hidden" name="source" id="source" value="26">
+                     <input type="submit" class="btn_apply but_submit" value="立即申请">
+                 </form>
+             </div>
+         </div>-->
+    </div>
+    <!--4 步骤-->
+    <div class="money-four-step">
+        <div class="steps">
+            <h2 title="抵押贷">抵押贷</h2>
+            <p class="red">轻松钱“贷”来</p>
+
+            <ul>
+
+                <li>
+                    <h6>额度高</h6>
+                    <i class="step-icon-1"></i>
+                    <span>高达500万</span>
+                </li>
+                <li>
+                    <h6>贷款期限</h6>
+                    <i class="step-icon-2"></i>
+                    <span>小于等于6个月</span>
+                </li>
+                <li>
+                    <h6>利息低</h6>
+                    <i class="step-icon-3"></i>
+                    <span>利息2%~5%</span>
+                </li>
+                <li>
+                    <h6>还款方式</h6>
+                    <i class="step-icon-4"></i>
+                    <span>先息后本</span>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="money-apply">
+        <ul>
+            <li class="money-apply-left" title="申请条件">
+                <h1>申请条件</h1>
+                <i class="apply-icon-1"></i>
+                <p>1、年龄22-65周岁；</p>
+                <p>2、抵押的产权要明晰，符合国家规定的交易条件，可进入市场流通，
+                    未做过任何其他抵押，可转让；</p>
+                <p>3、所抵押房屋未列入当地城市改造拆迁规划，并有房产部门、土地
+                    管理部门核发的房产证和土地证。</p>
+            </li>
+            <li class="money-apply-right" title="申请材料">
+                <h1>申请材料</h1>
+                <i class="apply-icon-2"></i>
+                <p>1、借款人的有效身份证户口本；</p>
+                <p>2、婚姻状况证明，未婚的提供单身证明；已婚的需提供法院民事调解
+                    书，或离婚证（注明离异后未婚）；已婚需提供配偶的有效身份证、
+                    户口本及结婚证；</p>
+                <p>3、借款人的收入证明（连续半年的工资收入证明或纳税凭证当地）；</p>
+                <p>4、抵押物所有权证照，购买合同，发票（如房产证，林权证，国有土
+                    地使用权证）；</p>
+                <p>5、抵押物所有权证照颁发机关办理的他项权证；</p>
+                <p>6、需要担保的，由担保人提供相关手续资料（需要提供身份证、户口
+                    本、结婚证等）。</p>
+
+            </li>
+        </ul>
+
+    </div>
+
+    <!--公司信息-->
+    <div class="company-state" id="company-state">
+        <h2>相关公司信息</h2>
+        <h5>典贷通平台合作伙伴均为全国具有前置审批并且资金雄厚的知名典当行和小额贷款公司。</h5>
+        <ul>
+            <li>
+                <a href="company-details.html" class="com-list-a">
+                    <div class="state-pic">
+                        <img src="img/xinwang.jpg" alt="鑫旺典当" title="鑫旺典当">
+                    </div>
+                    <h4>内蒙古鑫旺典当有限责任公司</h4>
+                    <p>注册资金：2000万元</p>
+                    <p>联系电话：15907140000/13472958528</p>
+                    <p>地址：内蒙古自治区锡林郭勒盟多伦县会盟大街西段华丰小区</p>
+                </a>
+            </li>
+            <li>
+                <a href="company-details.html" class="com-list-a">
+                    <div class="state-pic">
+                        <img src="img/yilong.jpg" alt="典贷通" title="典贷通">
+                    </div>
+                    <h4>承德益隆典当有限责任公司</h4>
+                    <p>注册资金：5000万元</p>
+                    <p>联系电话：15997940000</p>
+                    <p>地址：河北省承德市双桥区紫晶花园小区B座</p>
+                </a>
+            </li>
+            <li>
+                <a href="company-details.html" class="com-list-a">
+                    <div class="state-pic">
+                        <img src="img/liushun.jpg" alt="典贷通" title="典贷通">
+                    </div>
+                    <h4>河北六顺小额贷款有限责任公司</h4>
+                    <p>注册资金：5000万元</p>
+                    <p>联系电话：0314-2386666</p>
+                    <p>地址：河北省承德市双桥区紫晶花园小区底商</p>
+                </a>
+            </li>
+            <li>
+                <a href="company-details.html" class="com-list-a">
+                    <div class="state-pic">
+                        <img src="img/mengxin.jpg" alt="典贷通" title="典贷通">
+                    </div>
+                    <h4>内蒙古蒙信小额贷款有限责任公司</h4>
+                    <p>注册资金：2000万元</p>
+                    <p>联系电话：0479-3350444</p>
+                    <p>地址：内蒙古自治区锡林郭勒盟乌拉盖管理区巴音胡硕东街25号</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--<div class="apply-btn">-->
+    <!--<a href="javascript:;" title="我要申请"></a>-->
+    <!--</div>-->
+
+    <!--填写申请信息-->
+    <div class="information" id="information">
+        <div class="mation-txt">请如实填写借款申请</div>
+        <div class="form-info">
+            <form enctype="multipart/form-data" action="接收上传文件的后台处理URL" method="post">
+                <h6>温馨提示：以下所填信息对您的借款审核非常重要，请您务必认真填写。</h6>
+                <label for="">
+                    借款金额: <input class="input-infos" type="text" placeholder="不能为空，贷款金额不小于1000元">
+                    <span>元</span><em>借款金额不能为空!</em>
+                </label>
+                <label for="">
+                    借款标题: <input class="input-infos" type="text" placeholder="例：超市老板借款，用于流动资金周转">
+                    <em>借款标题不能为空!</em>
+                </label>
+                <label for="">客户类别:
+                    <select>
+                        <option value="公司职员">公司职员</option>
+                        <option value="私营业主">私营业主</option>
+                        <option value="其他">其他</option>
+                    </select>
+                </label>
+
+
+                <label for="">居住时间:
+                    <select>
+                        <option value="少于1年">少于1年</option>
+                        <option value="1~3年">1~3年</option>
+                        <option value="3~5年">3~5年</option>
+                        <option value="5~10年">5~10年</option>
+                        <option value="10~20年">10~20年</option>
+                        <option value="20年以上">20年以上</option>
+                    </select>
+                </label>
+                <label for="">借款期限:
+                    <select>
+                        <option value="1个月">1个月</option>
+                        <option value="2个月">2个月</option>
+                        <option value="3个月">3个月</option>
+                        <option value="4个月">4个月</option>
+                        <option value="5个月">5个月</option>
+                        <option value="6个月">6个月</option>
+                    </select>
+                </label>
+                <label for="">借款机构:
+                    <select>
+                        <option value="内蒙古鑫旺典当有限责任公司">内蒙古鑫旺典当有限责任公司</option>
+                        <option value="河北益隆典当有限责任公司">河北益隆典当有限责任公司</option>
+                        <option value="河北六顺小额贷款有限公司">河北六顺小额贷款有限公司</option>
+                        <option value="内蒙古蒙信小额贷款有限公司">内蒙古蒙信小额贷款有限公司</option>
+                    </select>
+                    <a href="#company-state" style="font-size: 16px; margin-left: 20px;" class="blue">了解相关公司信息</a>
+                </label>
+                <label for="">还款方式:
+                    <select>
+                        <option value="先息后本">先息后本</option>
+                    </select>
+                </label>
+
+                <label for="">
+                    居住城市: <input class="input-infos" type="text" placeholder="例：北京市">
+                    <em>居住城市不能为空!例：北京市</em>
+                </label>
+
+                <label for="">
+                    工作年限: <input class="input-infos" type="text" placeholder="请输入您的工作年限">
+                    <span>年</span><em>工作年限不能为空!例：2年</em>
+                </label>
+
+                <label for="">
+                    税后工资: <input class="input-infos" type="text" placeholder="请输入您的税后工资">
+                    <span>元</span><em>税后工资不能为空!例：5000元</em>
+                </label>
+
+                <label for="" class="labinfo">
+                    <p>借款目的:</p> <textarea placeholder="请输入您的借款目的，不少于20字"></textarea>
+                    <em>借款目的不能少于20字!</em>
+                </label>
+
+                <label for="" class="labinfo">
+                    <p>借款描述:</p> <textarea
+                        placeholder="此描述用于向借款机构展示您的借款用途、工作收入、资产状况、信用记录及还款来源等，请您认真填写。不少于20字"></textarea>
+                    <em>借款描述不能少于20字!</em>
+                </label>
+
+                <label for="">信用信息:
+                    <a href="javascript:;" class="a-upload">
+                        <input type="file" id="file">选择文件
+                    </a>
+                    <h5>（请上传身份信息，信用信息，可上传多张）</h5>
+                    <a href="javascript:;" class="up-pic">上传</a>
+                </label>
+
+                <label for="" class="btn">
+                    <!--<input class="button" id="submit" type="submit" value="确认提交">-->
+                    <button id="submit" class="button">确认提交</button>
+                </label>
+            </form>
+        </div>
+
+    </div>
+
+
+</div>
+
+<!--右侧悬浮回到顶部-->
+<div class="toolbar" id="rights" style="display: none">
+    <a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="Feedback.html" class="toolbar-item toolbar-item-feedback"></a>
+    <a href="javascript:;" id="returnTop" class="toolbar-item toolbar-item-top"></a>
+</div>
+<!--footer开始-->
+<div class="footer">
+    <div class="foo-conter">
+        <div class="foo-t">
+            <div class="foo-top">
+                <div class="foo-one">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="business.html">业务模式</a>
+                            <a target="_blank" href="anenst.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="secure.html">安全保障</a>
+                            <a target="_blank" href="help-center.html">常见问题</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="Franchise-chain.html">连锁加盟</a>
+                            <a target="_blank" href="Franchise-chain.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foo-two">
+                    <p>客服邮箱：kefu@bjdiandaitong.com</p>
+                    <p><i class="tel"></i><b>400-050-3015</b></p>
+                    <p>工作日：09:00~18:00 - 节假日：09:00~18:00</p>
+                </div>
+                <div class="foo-three">
+                    <p>微信扫一扫</p>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="foo-f">
+            <div class="foo-fotr">
+                <p>©2015 北京市典贷通信息服务有限公司 京ICP备15026559号 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnzz.com/stat/website.php?web_id=1255410260" title="站长统计"><em class=""><img src="http://icon.cnzz.com/img/pic.gif" alt=""></em></a></p>
+                <p>北京市海淀区上地国际创业园2号院一号楼17层</p>
+                <p>市场有风险 投资需谨慎</p>
+                <div class="certification">
+                    <a href="javascript:;"><i class="cer-1" title="诚信网站"></i></a>
+                    <a href="javascript:;"><i class="cer-2" title="互联网金融行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-3" title="行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-4" title="360网站安全监测"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer结束-->
+</body>
+
+<script>
+    $(function () {
+        $('#submit').click(function () {
+            var inval = $("input").val();
+            var intext = $("textarea").val();
+            var infile = $("#file").val();
+            if (inval == "" || inval.length == 0 && intext == "" || intext.length <= 20) {
+//                alert("111");
+                $('form em').show();
+                $('input[type=text],textarea').css("border", '1px solid #f3270d')
+                return false;
+            } else {
+                return true;
+            }
+
+        });
+
+    })
+
+</script>
+</html>

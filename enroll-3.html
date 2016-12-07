@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册账户-身份验证</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/enroll.css">
+    <link rel="stylesheet" type="text/css" href="css/hzw-city-picker.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="js/city-data.js"></script>
+    <script type="text/javascript" src="js/hzw-city-picker.min.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="javascript:;" class="red">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav-list">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="invest.html">投资理财</a></li>
+                <li><a href="borrow-money.html">借贷专区</a></li>
+                <li><a href="secure.html">安全保障</a></li>
+                <li><a href="anenst.html">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a href="my-account.html" class="my-cons"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd">
+    <!--购买成功-->
+    <div class="center">
+        <!--流程-->
+        <div class="flow">
+            <ul>
+                <li>
+                    <h6 class="flow-h6-2">1</h6>
+                    <span>创建账户</span>
+                </li>
+                <i class="flow-icon-1"></i>
+                <li>
+                    <h6 class="flow-h6-3">2</h6>
+                    <span>身份认证</span>
+                </li>
+                <i class="flow-icon-2"></i>
+                <li>
+                    <h6 class="flow-h6-1">3</h6>
+                    <span class="red">添加银行卡</span>
+                </li>
+                <i class="flow-icon-3"></i>
+                <li>
+                    <h6 class="flow-h6-4"></h6>
+                    <span>注册成功</span>
+                </li>
+            </ul>
+        </div>
+        <!--表单-->
+        <div class="form">
+            <form action="enroll-4.html">
+                <div class="div-phone">
+                    <label for="phone">卡号</label><input type="text" id="phone" class="infos" placeholder="请输入本人银行卡号" />
+                </div>
+                <div class="div-ranks">
+                    <label for="identity">银行名称</label>
+                    <select id="category" name="category" class="banks">
+                        <option value="">请选择银行</option>
+                        <option value="1">银行1</option>
+                        <option value="2">银行2</option>
+                        <option value="3">银行3</option>
+                        <option value="4">银行4</option>
+                    </select>
+                </div>
+                <div class="div-ranks">
+                    <label for="identity">所在地</label><input type="text" class="infos" id="cityChoice" placeholder="请选择你的城市" >
+                </div>
+
+                <div class="div-ranks">
+                    <label for="identity">开户行</label><input type="text" id="identity" class="infos" placeholder="请输入开户行"  />
+                </div>
+
+                <div class="div-pho">
+                    <label for="tel">手机号码</label><input type="text" id="tel" class="infos" placeholder="请输入本人手机号" />
+                </div>
+                <div class="div-conform">
+                    <a href="javascript:;" class="conform" id="submit">下一步</a>
+                </div>
+            </form>
+            <div class="hint">
+                <h3 class="red">温馨提示</h3>
+                <p>须填写本人名下的“手机号”及“银行卡号”请认真核对后再确认。</p>
+            </div>
+        </div>
+        <!--表单end-->
+
+    </div>
+</div>
+
+<!--底部-->
+<div class="foot">
+    <div class="foot-center">
+        <h2>注册典贷通，开启理财、贷款新旅程</h2>
+        <ul>
+            <li><i class="foot-icon-1"></i>利息按天返</li>
+            <li><i class="foot-icon-2"></i>0元手续费</li>
+            <li><i class="foot-icon-3"></i>100元起投</li>
+            <li><i class="foot-icon-4"></i>100%本息保障</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+<script>
+
+   $(function () {
+       $('#category option[value=" "]').attr('selected',true);
+
+       var cityPicker = new HzwCityPicker({
+           data: data,
+           target: 'cityChoice',
+           valType: 'k-v',
+           hideCityInput: {
+               name: 'city',
+               id: 'city'
+           },
+           hideProvinceInput: {
+               name: 'province',
+               id: 'province'
+           },
+           callback: function(){
+//               alert('OK');
+           }
+       });
+
+       cityPicker.init();
+
+       $('#submit').on('click', function() {
+               $('form').submit();
+       });
+   })
+</script>
+</html>

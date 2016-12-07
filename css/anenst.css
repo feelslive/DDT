@@ -1,0 +1,849 @@
+.bd {
+    background-color: #f6f6f6;
+}
+
+.center {
+    width: 1040px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.kong {
+    height: 15px;
+    width: 100%;
+}
+
+/*左侧导航*/
+.nav-left {
+    float: left;
+}
+
+.nav-left li {
+    width: 176px;
+    height: 42px;
+    border: 1px solid #ededed;
+    border-top: none;
+    line-height: 42px;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.nav-left li a {
+    display: inline-block;
+    width: 176px;
+    height: 42px;
+    text-align: center;
+}
+
+.nav-left li.nav-one {
+    border-top: 1px solid #ededed;
+}
+
+/*左侧导航结束*/
+
+/*右侧内容部分开始*/
+.center-right {
+    float: right;
+    width: 850px;
+    height: 100%;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.center-right .anen-right-nav {
+    width: 750px;
+    height: 40px;
+    font-size: 20px;
+    color: #19BD9B;
+    margin: 38px 0 0 50px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.center-right .anen-right-nav h3 {
+    text-indent: 20px;
+    border-left: 3px solid #19BD9B;
+}
+
+.center-right .center-right-nav {
+    width: 850px;
+    height: 131px;
+    background: url("../images/anenst.png") no-repeat;
+}
+
+.center-right-nav li {
+    width: 282px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 131px;
+    position: relative;
+    cursor: pointer;
+}
+
+.center-right-nav li i {
+    background: url("../images/my-mortgage.png") no-repeat;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.center-right-nav li:hover i {
+    transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+.center-right-nav li i.right-nav-1 {
+    position: absolute;
+    top: 30px;
+    left: 62px;
+    width: 60px;
+    height: 60px;
+    background-position: -541px -170px;
+}
+
+.center-right-nav li i.right-nav-2 {
+    position: absolute;
+    top: 36px;
+    left: 66px;
+    width: 55px;
+    height: 55px;
+    background-position: -636px -170px;
+}
+
+.center-right-nav li i.right-nav-3 {
+    position: absolute;
+    top: 38px;
+    left: 68px;
+    width: 55px;
+    height: 49px;
+    background-position: -722px -170px;
+}
+
+.center-right-nav li span {
+    color: #fff;
+    text-indent: 70px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.center-right-nav li i.pitch {
+    width: 57px;
+    height: 5px;
+}
+
+.center-right-nav li i.pitch-1 {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 62px;
+    background-position: -544px -250px;
+}
+
+.center-right-nav li i.pitch-2 {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 65px;
+    background-position: -544px -250px;
+}
+
+.center-right-nav li i.pitch-3 {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 68px;
+    background-position: -544px -250px;
+}
+
+.center-right-center {
+    height: 700px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.right-center-1,
+.right-center-2,
+.right-center-3 {
+    height: 200px;
+    width: 100%;
+}
+
+.center-right-center h3 {
+    font-size: 18px;
+    color: #19BD9B;
+    line-height: 50px;
+}
+
+.center-right-center p {
+    width: 448px;
+    font-size: 14px;
+    text-align: left;
+    color: #656565;
+    line-height: 28px;
+
+}
+
+
+.center-right-center .center-8-txt p {
+    width: 600px;
+    font-size: 14px;
+    color: #656565;
+    margin:20px auto;
+    line-height: 28px;
+
+}
+
+.center-right-center .center-8-txt span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.center-1-txt {
+    float: left;
+    margin: 15px 35px 0 100px;
+}
+
+.center-1-icon {
+    float: left;
+    margin: 41px 0px 0 0px;
+}
+
+.center-2-txt {
+    float: left;
+    margin: 30px 0 0 0;
+}
+
+.center-2-icon {
+    float: left;
+    margin: 36px 44px 0 100px;
+}
+
+.center-3-txt {
+    float: left;
+    margin: 0 35px 0 100px;
+}
+
+.center-3-icon {
+    float: left;
+    margin: 41px 0px 0 0px;
+}
+
+.center-right-center i {
+    display: inline-block;
+    background: url("../images/my-mortgage.png") no-repeat;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.center-right-center i:hover {
+    transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+.center-1-icon i {
+    width: 106px;
+    height: 116px;
+    background-position: -565px -263px;
+}
+
+.center-2-icon i {
+    width: 106px;
+    height: 116px;
+    background-position: -691px -402px;
+}
+
+.center-3-icon i {
+    width: 106px;
+    height: 116px;
+    background-position: -691px -262px;
+}
+
+/*背景*/
+.center-2-left {
+    float: left;
+    width: 315px;
+    height: 480px;
+    padding: 50px 25px 50px 85px;
+    position: relative;
+
+}
+
+.center-2-right {
+    float: left;
+    width: 325px;
+    height: 480px;
+    padding: 50px 0px 50px 50px;
+    position: relative;
+}
+
+.center-2-right p,
+.center-2-left p {
+    width: 288px;
+    font-size: 14px;
+    color: #656565;
+}
+
+.center-2-right span,
+.center-2-left span {
+    margin: 30px 0 50px 0px;
+    text-indent: 110px;
+    display: inline-block;
+    font-size: 26px;
+    color: #333;
+}
+
+.center-2-left i {
+    width: 65px;
+    height: 56px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    background-position: -504px -518px;
+}
+
+.center-2-right i {
+    width: 61px;
+    height: 62px;
+    position: absolute;
+    top: 70px;
+    left: 68px;
+    background-position: -589px -515px;
+}
+
+/*右侧内容部分结束*/
+
+/*联系我们开始*/
+.map {
+    margin: 60px 0 0 64px;
+}
+
+.address {
+    font-size: 14px;
+    color: #656565;
+    margin: 50px 0 100px 0;
+    background-color: #fff;
+    position: relative;
+}
+
+.map-icon {
+    background: url("../images/my-account.png") no-repeat;
+}
+
+.weixin {
+    background: url("../images/foter_weixin.png") no-repeat;
+}
+
+.map-icon {
+    width: 25px;
+    height: 159px;
+    background-position: -349px -2px;
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+.map-txt p {
+    text-indent: 100px;
+    line-height: 42px;
+}
+
+.weixin {
+    width: 258px;
+    height: 258px;
+    margin-left: 100px;
+    /*background-position: -105px 0px;*/
+}
+
+/*联系我们结束*/
+
+/*信用等级*/
+
+.grade {
+    width: 750px;
+    height: 100%;
+    padding: 28px 50px 50px 50px;
+}
+
+.grade-p {
+    font-size: 16px;
+    color: #333;
+    margin-left: 10px;
+}
+
+.record-lists {
+    margin-top: 30px;
+    border: 1px solid #19BD9B;
+}
+
+.record-list dt {
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    padding-left: 2px;
+    font-size: 16px;
+    color: #333;
+    background-color: #7ACCBB;
+}
+
+.record-list .price {
+    width: 100px;
+}
+
+.record-list .user {
+    width: 470px;
+}
+
+.record-list .status {
+    width: 100px;
+}
+
+.record-list dt span {
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+}
+
+.record-list span {
+    float: left;
+    display: inline;
+    padding: 0 10px;
+    vertical-align: middle;
+    text-align: left;
+    text-align: center;
+}
+
+.record-list dd {
+    height: 120px;
+    width: 100%;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.status-as {
+    font-size: 16px;
+    margin-top: 45px;
+}
+
+.price-as {
+    font-size: 14px;
+    margin-top: 46px;
+}
+
+.user-as {
+    font-size: 14px;
+    margin-top: 26px;
+}
+
+.user-us {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/*信用等级结束*/
+
+/*加盟连锁*/
+.league-nav {
+    width: 850px;
+    height: 131px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 131px;
+    background: url("../images/anenst.png") no-repeat;
+}
+
+.league-nav p {
+    text-indent: 50px;
+}
+
+.league-list {
+    width: 750px;
+    height: 100%;
+    padding: 30px 50px;
+}
+
+.league-list li {
+    width: 100%;
+    height: 230px;
+    margin: 0px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.league-list a li:hover {
+    border-bottom: 1px dashed #F3270D;
+}
+
+.shop-pic {
+    float: left;
+    width: 152px;
+    height: 152px;
+    overflow: hidden;
+    margin: 40px 30px 0 0;
+    background-color: #ccc;
+}
+
+.shop-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-txt {
+    float: left;
+    position: relative;
+}
+
+.shop-txt h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 54px 0 20px 0;
+}
+
+.shop-txt p {
+    color: #656565;
+    font-size: 14px;
+    line-height: 40px;
+    text-indent: 40px;
+}
+
+.shop-txt .shop-icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25px;
+    height: 80px;
+    background: url("../images/my-account.png") no-repeat -349px -2px;
+}
+
+/*连锁加盟结束*/
+
+/*新闻中心*/
+
+.news-nav {
+    width: 850px;
+    height: 131px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 131px;
+    background: url("../images/anenst.png") no-repeat;
+}
+
+.news-nav p {
+    text-indent: 50px;
+}
+
+.news-list {
+    width: 750px;
+    height: 100%;
+    padding: 30px 50px;
+}
+
+.news-list li {
+    width: 100%;
+    height: 127px;
+    margin-bottom: 30px;
+}
+
+.news-pic {
+    float: left;
+    width: 167px;
+    height: 127px;
+    overflow: hidden;
+    margin: 0px 30px 0 0;
+    background-color: #ccc;
+}
+
+.news-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.news-txt {
+    float: left;
+    position: relative;
+}
+
+.news-txt h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0 10px 0;
+}
+
+.news-txt p {
+    width: 550px;
+    height: 45px;
+    color: #656565;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.news-txt a {
+    font-size: 14px;
+    color: #19BD9B;
+    float: right;
+}
+
+/*分页开始*/
+#pageToolbar {
+    padding: 30px 0;
+    background-color: #f3f3f3;
+}
+
+.ui-paging-container {
+    color: #666;
+    font-size: 14px;
+}
+
+.ui-paging-container ul {
+    overflow: hidden;
+    text-align: center;
+}
+
+.ui-paging-container ul, .ui-paging-container li {
+    list-style: none;
+}
+
+.ui-paging-container li {
+    display: inline-block;
+    padding: 3px 9px;
+    margin-left: 5px;
+    color: #666;
+}
+
+.ui-paging-container li.ui-pager {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+}
+
+.ui-paging-container li.ui-pager:hover, .ui-paging-container li.focus {
+    background-color: #19BD9B;
+    color: #FFFFFF;
+}
+
+.ui-paging-container li.ui-paging-ellipse {
+    border: none;
+}
+
+.ui-paging-container li.ui-paging-toolbar {
+    padding: 0;
+}
+
+.ui-paging-container li.ui-paging-toolbar select {
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #666;
+}
+
+.ui-paging-container li.ui-paging-toolbar input {
+    line-height: 20px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 45px;
+    margin: 0 0 0 5px;
+    vertical-align: middle;
+}
+
+.ui-paging-container li.ui-paging-toolbar a {
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    border-radius: 5px;
+    line-height: 30px;
+    padding: 0 3px;
+    cursor: pointer;
+    margin: 1px 0 0 5px;
+    color: #666;
+}
+
+.ui-paging-container li.ui-pager-disabled, .ui-paging-container li.ui-pager-disabled:hover {
+    background-color: #f6f6f6;;
+    cursor: default;
+    /*border: none;*/
+    color: #ddd;
+}
+
+/*分页结束*/
+
+/*新闻中心结束*/
+
+/*公告中心开始*/
+
+.affiche-list {
+    width: 750px;
+    height: 100%;
+    background-color: #fff;
+    padding: 28px 50px 50px 50px;
+}
+
+.affiche-list i {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 12px 3px 0;
+    background-color: #19BD9B;
+}
+
+.affiche-list a {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.affiche-list span {
+    float: right;
+    font-size: 16px;
+    color: #999;
+    line-height: 40px;
+}
+
+/*公告中心结束*/
+
+/*新闻详情开始*/
+
+.press-pic {
+    float: left;
+    width: 220px;
+    height: 180px;
+    overflow: hidden;
+    margin: 0px 30px 0 0;
+    background-color: #ccc;
+}
+
+.press-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.press-nav {
+    width: 850px;
+    height: 131px;
+    color: #fff;
+    background: url("../images/anenst.png") no-repeat;
+}
+
+.press-nav p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 80px;
+    padding-top: 20px;
+}
+
+.press-nav span {
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.press-nav a {
+    font-size: 14px;
+    float: right;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.press-text {
+    width: 770px;
+    padding: 40px;
+
+}
+
+.press-txt {
+    width: 769px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.press-txt p {
+    line-height: 30px;
+    text-indent: 30px;
+}
+
+.press-txt p.blod {
+    font-weight: 700;
+}
+
+.press-txt i {
+    float: right;
+	margin-right: 20px;
+}
+
+.press-txt img{
+	width: 100%;
+	height:100%;
+}
+/*新闻详情结束*/
+
+/*公告内容*/
+.affiche-nav {
+    width: 850px;
+    height: 131px;
+    color: #fff;
+    background: url("../images/anenst.png") no-repeat;
+}
+
+.affiche-nav p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 80px;
+    padding-top: 20px;
+}
+
+.affiche-nav span {
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.affiche-nav a {
+    font-size: 14px;
+    float: right;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.affiche-text {
+    width: 770px;
+    height: 500px;
+    padding: 40px;
+
+}
+
+.aff-txt {
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc;
+}
+
+.aff-txt p {
+    line-height: 30px;
+    text-indent: 30px;
+}
+
+.aff-txt p em {
+    color: #F3270D;
+}
+.aff-txt img {
+    width: 100%;
+    height:100%;
+}
+.aff-txt i {
+    float: right;
+    margin-right:20px;
+    padding:10px 0;
+}
+
+/*公告内容结束*/

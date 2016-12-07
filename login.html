@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>账户登陆</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <!--登陆验证JS 需要先加载-->
+    <script>
+
+        //长度必须在6~20位之间
+        //开头不能为数字
+        //只能包含小写字母和数字
+        //数字：48~57
+        //小写字母：97~122
+        //innerHTML
+        function fnLogin(){
+            var oUname = document.getElementById("uname");
+            var oUpass = document.getElementById("upass");
+            var oError = document.getElementById("error_box");
+            var isNotError = true;
+            if(oUname.value.length > 20 || oUname.value.length < 6){
+                oError.innerHTML = "用户名长度必须在6~20位之间";
+                isNotError = false;
+                return;
+
+            }else if(oUname.value.charCodeAt(0) >= 48 && oUname.value.charCodeAt(0) <= 57){
+                oError.innerHTML = "用户名开头不能为数字";
+                isNotError = false;
+                return;
+            }else{
+                for(var i=0; i<oUname.value.length; i++){
+                    if((oUname.value.charCodeAt(i) > 122 || oUname.value.charCodeAt(i) < 97) && (oUname.value.charCodeAt(i) > 57 || oUname.value.charCodeAt(i) < 48)){
+                        oError.innerHTML = "用户名只能包含小写字母和数字";
+                        isNotError = false;
+                        return;
+                    }
+                }
+            }
+            if(oUpass.value.length > 20 || oUpass.value.length < 6){
+                oError.innerHTML = "密码长度必须在6~20位之间";
+                isNotError = false;
+                return;
+            }
+            oError.innerHTML = "登录成功";
+        }
+
+
+    </script>
+</head>
+<body>
+<!--去首页-->
+<div class="home">
+    <a href="index.html" title="首页">首页</a>
+</div>
+<!--宣传语-->
+<div class="language">
+</div>
+<!--登陆框-->
+<div class="logins">
+    <div class="box">
+        <h2>账户登录</h2>
+        <div id="error_box"></div>
+        <div class="input_box">
+            <i class="in-name"></i>
+            <input type="text" placeholder="请输入账户名" name="name" id="uname"/>
+        </div>
+        <div class="input_box">
+            <i class="in-pass"></i>
+            <input type="password" placeholder="请输入密码" name="password" id="upass"/>
+        </div>
+        <div class="input_box">
+            <button onclick="fnLogin()">登 &nbsp;录</button>
+        </div>
+        <div class="for-pass">
+            <a href="Forget-password.html">忘记密码</a>
+            <a href="enroll-1.html">免费注册</a>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        /*页面加载动画*/
+        $(".language").animate({
+            "top": "25%",
+            "opacity": "1"
+        }, 1500);
+        $(".logins").animate({
+            "right": "25%",
+            "opacity": "0.8"
+        }, 1500);
+    })
+</script>
+</html>

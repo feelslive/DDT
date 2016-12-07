@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的账户-账户首页</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/my-account.css">
+
+    <script src="js/jquery-1.8.2.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+    <script src="js/my-account.js"></script>
+    <!--日历-->
+    <script src="js/kalendar.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="enroll-1.html">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav-list">
+            <ul>
+                <li><a target="_blank" href="index.html">首页</a></li>
+                <li><a target="_blank" href="invest.html">投资理财</a></li>
+                <li><a target="_blank" href="borrow-money.html">借贷专区</a></li>
+                <li><a target="_blank" href="secure.html">安全保障</a></li>
+                <li><a target="_blank" href="anenst.html">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a target="_blank" href="my-account.html" class="my-cons red"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd clearfix">
+    <div class="kong"></div>
+    <!---->
+    <!--面包屑导航-->
+    <div class="crumbs" style="background-color:#f3f3f3">
+        <span><a href="javascript:;" title="当前位置">当前位置：</a></span>
+        <span><a href="index.html" target="_blank" title="首页">首页</a>&nbsp;&gt;&nbsp;</span>
+        <span><a href="my-account.html" style="color: #F3270D" target="_blank" title="我的账户">我的账户</a></span>
+
+    </div>
+    <div class="center">
+        <!--左侧导航-->
+        <div class="nav-left">
+            <ul class="my-list">
+                <li class="my-own nav-one"><i class="accicon-l-1"></i><a href="my-account.html" class="red">账户首页</a></li>
+                <li class="my-own my-fund-1"><i class="accicon-l-2"></i>我的资金 <i class="accicon-r-1"></i></li>
+                <div class="my-rec-1">
+                    <ul>
+                        <li><a href="my-recharge.html">充值</a></li>
+                        <li><a href="my-withdraw.html">提现</a></li>
+                    </ul>
+                </div>
+                <li class="my-own my-fund-2"><i class="accicon-l-3"></i>我的投资 <i class="accicon-r-2"></i></li>
+                <div class="my-rec-2">
+                    <ul>
+                        <li><a href="my-investment.html">投资记录</a></li>
+                        <li><a href="my-financing.html">资金记录</a></li>
+                        <li><a href="my-drawmoney.html">提现记录</a></li>
+                    </ul>
+                </div>
+                <li class="my-own my-fund-3"><i class="accicon-l-4"></i>我的借款 <i class="accicon-r-3"></i></li>
+                <div class="my-rec-3">
+                    <ul>
+                        <li><a href="my-borrowing.html">借款记录</a></li>
+                        <li><a href="my-payments.html">回款记录</a></li>
+                    </ul>
+                </div>
+                <li class="my-own my-fund-4"><i class="accicon-l-5"></i>个人设置 <i class="accicon-r-4"></i></li>
+                <div class="my-rec-4">
+                    <ul>
+                        <li><a href="my-setdatum.html">基本信息</a></li>
+                        <li><a href="my-setsecure.html">安全中心</a></li>
+                    </ul>
+                </div>
+                <li class="my-own"><i class="accicon-l-6"></i> <i class="acc-add"></i><a href="my-invite.html">我的邀请</a></li>
+                <li class="my-own"><i class="accicon-l-7"></i><a href="my-brokerage.html">我的佣金</a></li>
+            </ul>
+        </div>
+
+        <!--右侧内容-->
+        <div class="center-box">
+            <div class="home-box">
+                <!--主页-->
+                <!--账户信息-->
+                <div class="my-all-head">
+                    <div class="my-all-head-1">
+                        <div class="my-head">
+                            <img src="" alt="">
+                        </div>
+                        <div class="my-texts">
+                            <h3>上午好，<em>13901234567</em>！尽情享受美好时光吧！</h3>
+                            <div class="my-head-times">
+                                <p class="Account-security" >账号安全 <i class="my-icon-1" title="未实名认证"></i><i class="my-icon-2" title="未绑定手机"></i></p>
+                                <p class="Account-security" style="display: none">账号安全 <i class="my-icon-1s" title="已实名认证"></i><i class="my-icon-2s" title="已绑定手机"></i></p>
+                                <p class="registration-time">注册时间：2016-02-15  09：25：15</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="my-all-head-2">
+                        <dl>
+                            <dd>
+                                <span>资产总额：<em>0.00</em></span>
+                                <span>可用余额：<em>0.00</em></span>
+                                <span>待返收益：<em>0.00</em></span>
+                                <a href="my-recharge.html" class="chongzhi">充值</a>
+                            </dd>
+                            <dd>
+                                <span>资产总额：<em>0.00</em></span>
+                                <span>可用额度：<em>0.00</em></span>
+                                <span>待返本金：<em>0.00</em></span>
+                                <a href="my-withdraw.html" class="tixian">提现</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <!--日历-->
+                <div class="my-times">
+                    <div class="time-cutline">
+                        <div class="cutline-1">
+                            <p class="color-1"></p>
+                            <p>还款日</p>
+                        </div>
+                        <div class="cutline-2">
+                            <p class="color-2"></p>
+                            <p>回款日</p>
+                        </div>
+                        <div class="cutline-3">
+                            <p class="color-3"></p>
+                            <p>今天</p>
+                        </div>
+                    </div>
+                    <div id='wrap'>
+                        <!-- 因为日历初始显示的内容要根据js获得的日期-时间来确定，所以html中不写，在js中用另一种形式添加 -->
+                        <!--图例-->
+
+                    </div>
+                </div>
+                <!--投资记录-->
+                <div class="my-investtake">
+                    <div class="investtake-content">
+                        <h2>投资记录<i></i></h2>
+                        <div class="record-lists">
+                            <dl class="record-list">
+                                <dt>
+                                    <span class="status">项目名称</span>
+                                    <span class="price">还款方式</span>
+                                    <span class="user">收益率</span>
+                                    <span class="source">来源</span>
+                                    <span class="time">期限</span>
+                                </dt>
+                                <dd>
+                                    <span class="status"><a href="javascript:;">权健产品质押借款20160520</a></span>
+                                    <span class="price">按日付息，到期还本</span>
+                                    <span class="user">10%</span>
+                                    <span class="source"><i class="source-pc"></i></span>
+                                    <span class="time">90天</span>
+                                </dd>
+                                <dd>
+                                    <span class="status"><a href="javascript:;">权健产品质押借款20160520押借款201605</a></span>
+                                    <span class="price">按日付息，到期还本</span>
+                                    <span class="user">100%</span>
+                                    <span class="source"><i class="source-mob"></i></span>
+                                    <span class="time">190天</span>
+                                </dd>
+                                <dd>
+                                    <span class="status"><a href="javascript:;">权健产品质押借款20160520押借款201605</a></span>
+                                    <span class="price">按日付息，到期还本</span>
+                                    <span class="user">10%</span>
+                                    <span class="source"><i class="source-pc"></i></span>
+                                    <span class="time">90天</span>
+                                </dd>
+                                <dd>
+                                    <span class="status"><a href="javascript:;">权健产品质押借款20160520押借款201605</a></span>
+                                    <span class="price">按日付息，到期还本</span>
+                                    <span class="user">10%</span>
+                                    <span class="source"><i class="source-pc"></i></span>
+                                    <span class="time">90天</span>
+                                </dd>
+                                <dd>
+                                    <span class="status"><a href="javascript:;">权健产品质押借款20160520押借款201605</a></span>
+                                    <span class="price">按日付息，到期还本</span>
+                                    <span class="user">10%</span>
+                                    <span class="source"><i class="source-pc"></i></span>
+                                    <span class="time">90天</span>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="my-investtake-more">
+                            <a href="my-investment.html">查看更多</a>
+                        </div>
+                    </div>
+                </div>
+                <!--资金记录-->
+                <div class="fundtake">
+                    <div class="fundtake-content">
+                        <h2>资金记录<i></i></h2>
+                        <div class="record-lists">
+                            <dl class="record-list">
+                                <dt>
+                                    <span class="status">类型</span>
+                                    <span class="price">交易金额</span>
+                                    <span class="user">状态</span>
+                                    <span class="source">来源</span>
+                                    <span class="time">操作时间</span>
+                                </dt>
+                                <dd>
+                                    <span class="status">充值</span>
+                                    <span class="price red">20,000.00</span>
+                                    <span class="user">完成</span>
+                                    <span class="source"><i class="source-pc"></i></span>
+                                    <span class="time">2016-09-01 10:46</span>
+                                </dd>
+                                <dd>
+                                    <span class="status">提现</span>
+                                    <span class="price red">20,000.00</span>
+                                    <span class="user">完成</span>
+                                    <span class="source"><i class="source-mob"></i></span>
+                                    <span class="time">2016-09-01 10:46</span>
+                                </dd>
+                                <dd>
+                                    <span class="status">充值</span>
+                                    <span class="price red">20,000.00</span>
+                                    <span class="user">完成</span>
+                                    <span class="source"><i class="source-pc"></i></span>
+                                    <span class="time">2016-09-01 10:46</span>
+                                </dd>
+                                <dd>
+                                    <span class="status">提现</span>
+                                    <span class="price red">20,000.00</span>
+                                    <span class="user">完成</span>
+                                    <span class="source"><i class="source-mob"></i></span>
+                                    <span class="time">2016-09-01 10:46</span>
+                                </dd>
+                                <dd>
+                                    <span class="status">提现</span>
+                                    <span class="price red">20,000.00</span>
+                                    <span class="user">完成</span>
+                                    <span class="source"><i class="source-mob"></i></span>
+                                    <span class="time">2016-09-01 10:46</span>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="fundtake-more">
+                            <a href="my-financing.html">查看更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--右侧悬浮回到顶部-->
+<div class="toolbar" id="rights" style="display: none">
+    <a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="Feedback.html" class="toolbar-item toolbar-item-feedback"></a>
+    <a href="javascript:;" id="returnTop" class="toolbar-item toolbar-item-top"></a>
+</div>
+<!--footer开始-->
+<div class="footer">
+    <div class="foo-conter">
+        <div class="foo-t">
+            <div class="foo-top">
+                <div class="foo-one">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="business.html">业务模式</a>
+                            <a target="_blank" href="anenst.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="secure.html">安全保障</a>
+                            <a target="_blank" href="help-center.html">常见问题</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="Franchise-chain.html">连锁加盟</a>
+                            <a target="_blank" href="Franchise-chain.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foo-two">
+                    <p>客服邮箱：kefu@bjdiandaitong.com</p>
+                    <p><i class="tel"></i><b>400-050-3015</b></p>
+                    <p>工作日：09:00~18:00 - 节假日：09:00~18:00</p>
+                </div>
+                <div class="foo-three">
+                    <p>微信扫一扫</p>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="foo-f">
+            <div class="foo-fotr">
+                <p>©2015 北京市典贷通信息服务有限公司 京ICP备15026559号 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnzz.com/stat/website.php?web_id=1255410260" title="站长统计"><em class=""><img src="http://icon.cnzz.com/img/pic.gif" alt=""></em></a></p>
+                <p>北京市海淀区上地国际创业园2号院一号楼17层</p>
+                <p>市场有风险 投资需谨慎</p>
+                <div class="certification">
+                    <a href="javascript:;"><i class="cer-1" title="诚信网站"></i></a>
+                    <a href="javascript:;"><i class="cer-2" title="互联网金融行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-3" title="行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-4" title="360网站安全监测"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer结束-->
+<script>
+    /*隔行变色*/
+    $(function () {
+        $(".my-investtake dd:odd").css("backgroundColor","#F9F9F9");
+        $(".fundtake dd:odd").css("backgroundColor","#F9F9F9");
+    })
+</script>
+</body>
+</html>

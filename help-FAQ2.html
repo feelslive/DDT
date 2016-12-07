@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心-注册、登录</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/help.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/help.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+    <script src="js/my-account.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="enroll-1.html">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html" class="red">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav-list">
+            <ul>
+                <li><a target="_blank" href="index.html">首页</a></li>
+                <li><a target="_blank" href="invest.html">投资理财</a></li>
+                <li><a target="_blank" href="borrow-money.html">借贷专区</a></li>
+                <li><a target="_blank" href="secure.html">安全保障</a></li>
+                <li><a target="_blank" href="anenst.html">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a target="_blank" href="my-account.html" class="my-cons"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd clearfix">
+    <div class="kong"></div>
+    <!---->
+    <!--面包屑导航-->
+    <div class="crumbs">
+        <span><a href="javascript:;" title="当前位置">当前位置：</a></span>
+        <span><a href="index.html" target="_blank" title="首页">首页</a>&nbsp;&gt;&nbsp;</span>
+        <span><a href="my-account.html" style="color: #F3270D" target="_blank" title="帮助中心">帮助中心</a></span>
+
+    </div>
+    <div class="center">
+        <!--左侧导航-->
+        <div class="nav-left">
+            <ul class="my-list">
+                <li class="my-own nav-one"><i class="accicon-l-1"></i><a href="help-center.html">帮助中心</a></li>
+                <li class="my-own my-fund-7"><i class="accicon-l-2"></i>新手指南 <i class="accicon-r-7"></i></li>
+                <div class="my-rec-7" style="display: none">
+                    <ul>
+                        <li><a href="help-handbook.html">注册</a></li>
+                        <li><a href="help-handbook2.html">登录</a></li>
+                        <li><a href="help-handbook3.html">充值</a></li>
+                        <li><a href="help-handbook4.html">提现</a></li>
+                        <li><a href="help-handbook5.html">投资理财</a></li>
+                        <li><a href="help-handbook6.html">我要借款</a></li>
+                    </ul>
+                </div>
+                <li class="my-own my-fund-8"><i class="accicon-l-6"></i>常见问题 <i class="accicon-r-8"></i></li>
+                <div class="my-rec-8">
+                    <ul>
+                        <li><a href="help-FAQ1.html">典贷通金融</a></li>
+                        <li><a href="help-FAQ2.html" class="red">注册、登录</a></li>
+                        <li><a href="help-FAQ3.html">充值、提现</a></li>
+                        <li><a href="help-FAQ4.html">投资理财</a></li>
+                        <li><a href="help-FAQ5.html">我要借款</a></li>
+                        <li><a href="help-FAQ6.html">其他问题</a></li>
+                    </ul>
+                </div>
+                <li class="my-own"><i class="accicon-l-7"></i> <a href="help-explain.html">名词解释</a></li>
+                <li class="my-own"><i class="accicon-l-8"></i>常用工具</li>
+            </ul>
+        </div>
+
+        <!--右侧内容-->
+        <div class="center-box">
+
+            <div class="right-box">
+
+                <!--常见问题-->
+                <div class="beg-center">
+
+                    <!--注册登录-->
+                    <div class="center-right">
+                        <div class="center-right-nav">
+                            <h3>注册、登录</h3>
+                        </div>
+                        <div class="help-list">
+                            <ul>
+                                <li id="help-list-a1">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">如何开始我在典贷通的第一笔投资？</a>
+                                        <span id="help-icon-a1"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-a1" class="help-text" style="display: none">
+                                    <p>首先，请注册您的典贷通会员账户（典贷通官网http://www.diandaitongjinrong.com）。然后在您的个人中心的安全设置页面验证您的一系列个人信息，包括姓名、身份证号、登录密码等。典贷通网保证不泄露您的个人隐私。相关承诺，请参考典贷通网的隐私保护政策。</p>
+                                </div>
+                                <li id="help-list-b1">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">使用护照号、军官证号等是否可以认证？</a>
+                                        <span id="help-icon-b1"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-b1" class="help-text" style="display: none">
+                                    <p>目前系统支持的证件类型只有身份证，在典贷通进行认证的用户年龄应满18岁。</p>
+                                </div>
+                                <li id="help-list-c1">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">注册后是否能修改用户名？</a>
+                                        <span id="help-icon-c1"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-c1" class="help-text" style="display: none">
+                                    <p>
+                                        用户完成注册之后，将作为您在平台上的唯一标示，用户名不能修改，抱歉。
+                                    </p>
+                                </div>
+
+                                <li id="help-list-d1">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">我认证成功后，是否可以更改证件号码？</a>
+                                        <span id="help-icon-d1"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-d1" class="help-text" style="display: none">
+                                    <p>您在典贷通认证的姓名和证件号码将用于生成您的电子合同，为保障您的权益，证件号码不能在线修改，您可以通过联系我们的客服人员进行修改。</p>
+                                </div>
+
+                                <li id="help-list-e1">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">为什么会登陆失败？</a>
+                                        <span id="help-icon-e1"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-e1" class="help-text" style="display: none">
+                                    <p>请您核对以下几点，这些可能是导致您登录失败的原因： </p>
+                                    <p>1.请您确认输入的用户名是否正确。</p>
+                                    <p>2.请您确认输入的密码是否正确。如果忘记密码，您可以点击下方的【忘记密码】重新设置。 </p>
+                                    <p>3.请您确认输入的验证码是否正确。如果看不清楚，可以点击【换一张】重新获取。 </p>
+                                    <p>4.网络问题也会造成登录失败，如果提示网页有错误，建议您稍后尝试。</p>
+                                </div>
+
+                                <li id="help-list-f1">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">如何实名认证？</a>
+                                        <span id="help-icon-f1"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-f1" class="help-text" style="display: none">
+                                    <p>手机登陆</p>
+                                    <p>1、登陆账号</p>
+                                    <p>2、进入我的账户</p>
+                                    <p>3、点击最后一项安全设置</p>
+                                    <p>4、选择身份验证，输入身份证号</p>
+                                    <p>电脑登陆</p>
+                                    <p>1、登陆账号</p>
+                                    <p>2、进入我的账户</p>
+                                    <p>3、点击安全设置</p>
+                                    <p>4、输入身份证号</p>
+                                    <p>4、输入身份证号</p>
+                                    <p>如操作中认证不成功，请联系典贷通客服（电话：400-050-3015），并准备自己身份证的正反面照以及自己手持身份证的照片。</p>
+                                </div>
+                                <li id="help-list-a">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">如何找回密码？</a>
+                                        <span id="help-icon-a"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-a" class="help-text" style="display: none">
+                                    <p>1、在登录界面中点击【忘记密码】。</p>
+                                    <p>2、请输入注册时的手机账号，来接收我们发给您的验证信息，从而进行该账户的密码重置。</p>
+                                    <p>3、设置新密码，密码应为6-16位之间。</p>
+                                    <p>4、如果您一直未收到我们发给您的验证短信，您可以联系客服人员（客服电话：400-050-3015）。</p>
+                                </div>
+
+                                <li id="help-list-d">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">我忘记了登录名，能找回吗？</a>
+                                        <span id="help-icon-d"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-d" class="help-text" style="display: none">
+                                    <p>如果您的账号已完成身份认证，您可以联系客服（400-050-3015），并提交个人身份证明，来找回登陆名。</p>
+                                </div>
+                                <li id="help-list-b">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">手机收不到短信怎么办？</a>
+                                        <span id="help-icon-b"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-b" class="help-text" style="display: none">
+                                    <p>请确认您是否开通了相应的短信通知功能；</p>
+                                    <p>短信收发过程中会存在延迟，收到的短信在10分钟内均有效，请耐心等待；</p>
+                                    <p>请确认手机是否安装短信拦截或过滤软件；</p>
+                                    <p>请确认手机是否能够正常接收短信（未处于停机或欠费状态）；</p>
+                                    <p>您还可以联系客服，寻求帮助客服（电话：400-050-3015）。</p>
+                                </div>
+
+                                <li id="help-list-e">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">换手机号了或者手机号丢失了怎么办？</a>
+                                        <span id="help-icon-e"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-e" class="help-text" style="display: none">
+                                    <p>
+                                        在您手机号丢失，或者更改手机号后收不到验证码解决办法
+                                    </p>
+                                    <p>
+                                        1、先到银行修改自己绑定银行卡的预留手机号；
+                                    </p>
+                                    <p>
+                                        2、联系典贷通客服，我们将在后台更改您的电话号码。
+                                    </p>
+                                </div>
+                                <li id="help-list-c">
+                                    <p>
+                                        <i></i>
+                                        <a href="javascript:;" class="ann-cem">为什么要进行身份验证？</a>
+                                        <span id="help-icon-c"></span>
+                                    </p>
+                                </li>
+                                <div id="help-text-c" class="help-text" style="display: none">
+                                    <p>为了保障用户的账户及资金安全，需要对平台的所有用户（包括出借人和借款人）进行身份验证。</p>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--右侧悬浮回到顶部-->
+<div class="toolbar" id="rights" style="display: none">
+    <a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="Feedback.html" class="toolbar-item toolbar-item-feedback"></a>
+    <a href="javascript:;" id="returnTop" class="toolbar-item toolbar-item-top"></a>
+</div>
+<!--footer开始-->
+<div class="footer">
+    <div class="foo-conter">
+        <div class="foo-t">
+            <div class="foo-top">
+                <div class="foo-one">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="business.html">业务模式</a>
+                            <a target="_blank" href="anenst.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="secure.html">安全保障</a>
+                            <a target="_blank" href="help-center.html">常见问题</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="Franchise-chain.html">连锁加盟</a>
+                            <a target="_blank" href="Franchise-chain.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foo-two">
+                    <p>客服邮箱：kefu@bjdiandaitong.com</p>
+                    <p><i class="tel"></i><b>400-050-3015</b></p>
+                    <p>工作日：09:00~18:00 - 节假日：09:00~18:00</p>
+                </div>
+                <div class="foo-three">
+                    <p>微信扫一扫</p>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="foo-f">
+            <div class="foo-fotr">
+                <p>©2015 北京市典贷通信息服务有限公司 京ICP备15026559号 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnzz.com/stat/website.php?web_id=1255410260" title="站长统计"><em class=""><img src="http://icon.cnzz.com/img/pic.gif" alt=""></em></a></p>
+                <p>北京市海淀区上地国际创业园2号院一号楼17层</p>
+                <p>市场有风险 投资需谨慎</p>
+                <div class="certification">
+                    <a href="javascript:;"><i class="cer-1" title="诚信网站"></i></a>
+                    <a href="javascript:;"><i class="cer-2" title="互联网金融行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-3" title="行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-4" title="360网站安全监测"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer结束-->
+</body>
+</html>

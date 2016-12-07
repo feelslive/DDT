@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册账户-身份验证</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/enroll.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="javascript:;" class="red">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav-list">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="invest.html">投资理财</a></li>
+                <li><a href="borrow-money.html">借贷专区</a></li>
+                <li><a href="secure.html">安全保障</a></li>
+                <li><a href="anenst.html">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a href="my-account.html" class="my-cons"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd">
+    <!--购买成功-->
+    <div class="center">
+        <!--流程-->
+        <div class="flow">
+            <ul>
+                <li>
+                    <h6 class="flow-h6-2">1</h6>
+
+                    <span>创建账户</span>
+                </li>
+                <i class="flow-icon-1"></i>
+                <li>
+                    <h6 class="flow-h6-1">2</h6>
+                    <span class="red">身份认证</span>
+                </li>
+                <i class="flow-icon-2"></i>
+                <li>
+                    <h6 class="flow-h6-3">3</h6>
+                    <span>添加银行卡</span>
+                </li>
+                <i class="flow-icon-3"></i>
+                <li>
+                    <h6 class="flow-h6-4"></h6>
+                    <span>注册成功</span>
+                </li>
+            </ul>
+        </div>
+        <!--表单-->
+        <div class="form">
+            <form action="enroll-3.html">
+                <div class="div-phone">
+                    <label for="phone">真实姓名</label><input type="text" id="phone" class="infos" placeholder="请输入你的真实姓名" />
+                </div>
+                <div class="div-ranks">
+                    <label for="identity">身份证号码</label><input type="text" id="identity" class="infos" placeholder="请输入你的身份证号码"  />
+                </div>
+                <div class="div-conform">
+                    <a href="javascript:;" class="conform" id="submit">下一步</a>
+                </div>
+            </form>
+
+            <div class="hint">
+                <h3 class="red">温馨提示</h3>
+                <p>“真实姓名”及“身份证号码”确认后将不可更改，请认真核对后再确认。</p>
+            </div>
+
+
+
+        </div>
+
+        <!--表单end-->
+
+    </div>
+</div>
+
+<!--底部-->
+<div class="foot">
+    <div class="foot-center">
+        <h2>注册典贷通，开启理财、贷款新旅程</h2>
+        <ul>
+            <li><i class="foot-icon-1"></i>利息按天返</li>
+            <li><i class="foot-icon-2"></i>0元手续费</li>
+            <li><i class="foot-icon-3"></i>100元起投</li>
+            <li><i class="foot-icon-4"></i>100%本息保障</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+<script>
+
+    /*表单验证*/
+    // 验证身份证
+    var ok2=false;
+    function isCardNo(card) {
+        var pattern = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+        return pattern.test(card);
+    }
+    function formValidate() {
+        var str = '';
+
+        if($.trim($('#identity').val()).length == 0) {
+            str += '身份证号码没有输入!\n';
+            alert(str);
+            $('#identity').focus();
+        } else {
+            if(isCardNo($.trim($('#identity').val())) == false) {
+                str += '身份证号不正确!\n';
+                alert(str);
+                $('#identity').focus();
+            }
+        }
+        if($.trim($('#identity').val()).length == 18){
+//                str += '身份证号输入成功!\n';
+//                alert(str);
+                $('#identity').focus();
+                ok2=true;
+
+        }
+    }
+    /*输入成功就跳转*/
+    $('#submit').on('click', function() {
+        formValidate();
+        if(ok2){
+            $('form').submit();
+        }else{
+            return false;
+        }
+    });
+</script>
+</html>

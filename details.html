@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>项目详情</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/details.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+    <!--统计圆-->
+    <script src="js/jquery.circliful.min.js"></script>
+
+    <!-- 图片浏览 -->
+    <link href="css/blueimp-gallery.min.css" type="text/css" rel="stylesheet" />
+    <script src="js/blueimp-gallery.min.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="enroll-1.html">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav-list">
+            <ul>
+                <li><a target="_blank" href="index.html">首页</a></li>
+                <li><a target="_blank" href="invest.html" class="red">投资理财</a></li>
+                <li><a target="_blank" href="borrow-money.html">借贷专区</a></li>
+                <li><a target="_blank" href="secure.html">安全保障</a></li>
+                <li><a target="_blank" href="anenst.html">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a target="_blank" href="my-account.html" class="my-cons"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd clearfix">
+    <!--面包屑导航-->
+    <div class="crumbs" style="padding-left: 0;width: 1200px;">
+        <span><a href="javascript:;" title="当前位置">当前位置：</a></span>
+        <span><a href="index.html" target="_blank" title="首页">首页</a>&nbsp;&gt;&nbsp;</span>
+        <span><a href="invest.html" target="_blank" title="投资理财">投资理财</a>&nbsp;&gt;&nbsp;</span>
+        <span><a style="color: #F3270D;" href="javascript:;" title="项目详情">项目详情</a></span>
+    </div>
+    <!--项目标题-->
+    <div class="Project-title">
+        <!--项目参数-->
+        <div class="project-left">
+            <i class="pro-icon-1"></i>
+            <i class="pro-icon-2"></i>
+            <h4>装饰公司老板车辆质押借款20160829款</h4>
+            <div class="spec-list">
+
+                <ul>
+                    <li class="raise">
+                        <h1>11.0%</h1>
+                        <p>周期60天</p>
+                    </li>
+                    <li class="rai">
+                        <h2>120天</h2>
+                        <p>投资周期</p>
+                    </li>
+                    <li>
+                        <h2>8万</h2>
+                        <p>融资金额</p>
+                    </li>
+                    <li class="yuan"><!--统计圆-->
+                        <div id="myStat-3" data-dimension="80" data-text="50.00%" data-width="4" data-fontsize="16" data-percent="50" data-fgcolor="#F4280D"
+                             data-bgcolor="#ccc" data-fill="#fff">
+                        </div>
+
+                        <p style="margin-left: 11px;">融资进度</p>
+                    </li>
+                </ul>
+            </div>
+            <!--项目参数-->
+            <div class="parameter">
+                <div class="par-l">
+                    <p><em>合作机构 &nbsp;&nbsp;</em><span> 百达兴业</span></p>
+                    <p><em>还款时间 &nbsp;&nbsp;</em><span> 2016-05-15</span></p>
+                </div>
+                <div class="par-m">
+                    <p><em>还款方式 &nbsp;&nbsp;</em><span> 按日付息，到期还本</span></p>
+                    <p><em>企业编号 &nbsp;&nbsp;</em><span> BDXY201603091128</span></p>
+                </div>
+                <div class="par-r">
+                    <p><em>信用等级  &nbsp;&nbsp;</em><span class="red"> AAA</span></p>
+                </div>
+            </div>
+        </div>
+        <!--可用金额-->
+        <div class="project-right">
+            <!--登录状态-->
+            <div class="por-nums">
+                <ul>
+                    <li>
+                        <span>可投金额 &nbsp;</span><em> 444,440,000.00</em><span>元</span>
+                    </li>
+                    <li>
+                        <span>可用金额  &nbsp;</span><em> 888,888,888.00</em><span>元</span>
+                        <br>
+                    </li>
+                    <li class="chongzhis">
+                        <a href="my-recharge.html">充值</a>
+                    </li>
+                </ul>
+                <input style="display:none;padding-left: 10px; font-size: 16px" type="text" title="请输入投资金额" autofocus placeholder="请输入投资金额：100元起投">
+                <div class="time-item" style="font-size: 30px;font-weight: 700;margin: 50px 0 0 20px;display: block">
+                    <!--<span id="day_show">0天</span>-->
+                    <!--<strong id="hour_show">0时</strong>
+                    <strong id="minute_show">0分</strong>
+                    <strong id="second_show">0秒</strong>-->
+                    <strong id="onLineDate">00:00:00</strong>
+
+                </div>
+                <a href="javascript:;" class="promptly" style="display: none">立即投资</a>
+                <a href="javascript:;" class="promptlygs" title="敬请期待" >敬请期待</a>
+            </div>
+            <!--未登录状态-->
+            <div class="por-nums" style="display: none">
+                <ul>
+                    <li>
+                        <span>可投金额 &nbsp;</span><em> 40,000.00</em><span>元</span>
+                    </li>
+                    <li>
+                        <span>可用金额  &nbsp;
+                            <a href="login.html" target="_blank" style="margin-left: 0px">登录</a>
+                        </span>
+                        <span style="margin-left: 10px">后可见</span>
+                    </li>
+                </ul>
+                <input type="text" title="请输入投资金额" autofocus placeholder="请输入投资金额：100元起投">
+                <a href="javascript:;" class="promptly">立即投资</a>
+            </div>
+            <!--还款中状态-->
+            <div class="por-nums" style="display: none">
+                <div class="por-pic">
+
+                </div>
+                <a href="javascript:;" class="prohibit">还款中</a>
+            </div>
+
+        </div>
+    </div>
+    <!--项目描述-->
+    <div class="Project-bewrite">
+        <div class="Project-bewrite-left">
+            <div class="Project-bewrite-left-nav">
+                <ul>
+                    <li class="desc">项目描述</li>
+                    <li>风控措施</li>
+                    <li>合作机构</li>
+                    <li>投资记录</li>
+                </ul>
+            </div>
+            <div class="Project-bewrite-box">
+                <!--内容1 项目描述-->
+                <div class="Project-bewrite-content">
+                    <h2>项目描述<i></i></h2>
+                    <h3>项目介绍<i></i></h3>
+                    <p>借款人在当地经营一家装饰公司，在本地名气较大，口碑较好，装修样式较新颖，老客户转介绍新客户
+                        较多；设计师均为名牌大学毕业，经常承包高档建筑装修；店面位于当地繁华商圈，现店面升级改造，
+                        此笔借款主要用于装饰公司采购货物和资金周转。
+                        较多；设计师均为名牌大学毕业，经常承包高档建筑装修；店面位于当地繁华商圈，现店面升级改造，
+                        此笔借款主要用于装饰公司采购货物和资金周转。
+                    </p>
+                    <h3>资金用途<i></i></h3>
+                    <p>借款人在当地经营一家装饰公司，在本地名气较大，口碑较好，装修样式较新颖，老客户转介绍新客户
+                        较多；设计师均为名牌大学毕业，经常承包高档建筑装修；店面位于当地繁华商圈，现店面升级改造，
+                        此笔借款主要用于装饰公司采购货物和资金周转。
+                        较多；设计师均为名牌大学毕业，经常承包高档建筑装修；店面位于当地繁华商圈，现店面升级改造，
+                        此笔借款主要用于装饰公司采购货物和资金周转。
+                    </p>
+                    <h3>还款来源<i></i></h3>
+                    <p>借款人在当地经营一家装饰公司，在本地名气较大，口碑较好，装修样式较新颖，老客户转介绍新客户
+                        较多；设计师均为名牌大学毕业，经常承包高档建筑装修；店面位于当地繁华商圈，现店面升级改造，
+                        此笔借款主要用于装饰公司采购货物和资金周转。
+                        较多；设计师均为名牌大学毕业，经常承包高档建筑装修；店面位于当地繁华商圈，现店面升级改造，
+                        此笔借款主要用于装饰公司采购货物和资金周转。
+                        借款人在当地经营一家装饰公司，在本地名气较大，口碑较好，装修样式较新颖，老客户转介绍新客户
+                        较多；设计师均为名牌大学毕业，经常承包高档建筑装修；店面位于当地繁华商圈，现店面升级改造，
+                        此笔借款主要用于装饰公司采购货物和资金周转。
+                        较多；设计师均为名牌大学毕业，经常承包高档建筑装修；店面位于当地繁华商圈，现店面升级改造，
+                        此笔借款主要用于装饰公司采购货物和资金周转。
+                    </p>
+                </div>
+                <!--内容2 风险措施-->
+                <div class="Project-bewrite-content" style="display: none">
+                    <h2>风控措施<i></i></h2>
+                    <h3>抵/质押物信息<i></i></h3>
+                    <p>一、典贷通金融平台与北京安融惠众征信有限公司签署战略合作协议，对借款人征信进行查询包括：
+                        ①反欺诈服务产品查询、②风险预警服务产品查询、③银联卡|商户交易账单查询、④银联卡|商户交易
+                        分析报告查询、⑤银行卡验证、⑥公共信用信息查询认证（司法信息查询、公安身份核实、个人关联企
+                        业信息查询） 央行个人征信系统显示该借款人信用状况良好，无逾期及不良记录，最高人民法院全国
+                        被执行人系统显示该借款人无被执行记录。
+                    </p>
+                    <p>二、借款人此笔借款共计借款8万元，推荐给典贷通平台募集资金。
+                    </p>
+                    <p>三、典贷通平台不触碰用户资金，全程采用融宝支付进行独立第三方资金托管，所有账户均通过实名身
+                        份认证，资金记录清晰可追溯。
+                    </p>
+                </div>
+                <!--内容3 合作机构-->
+                <div class="Project-bewrite-content" style="display: none">
+                    <h2>合作机构<i></i></h2>
+                    <h3>六顺小贷<i></i></h3>
+                    <p>河北六顺小额贷款有限公司注册资金5000万元，公司地址：河北省承德市紫晶花园小区底商，公司成立
+                        于2012年11月11日是经河北省金融办特许批准的非金融性贷款公司。
+                    </p>
+                    <p>河北六顺小额贷款有限公司自开业以来，立足支持地方经济发展服务于“三农”、小型及小微企业，严
+                        格执行国家金融方针、政策、遵守国家法律法规，公司建立健全了一套完整的公司管理规章制度。有一
+                        支强有力的公司管理队伍，有严格的贷款发放管理的风控控制体系，几年的时间树立和打造了本公司的
+                        核心价值，在河北省同行业评比中名列前三名。
+
+                    </p>
+                    <p>经营范围：向农户、个体工商户、小型及微型企业发放小额贷款。
+                        经营理念：持续、稳健、创新、规范。
+                        经营准则：贷款安全性、资金流动性、企业效益型。
+                        经营方针：贷款额度小额化；贷款对象行业分散化；贷款时间短期化；贷款利率差异化。
+                        企业愿景：未来进入准金融行列。
+                    </p>
+
+                    <h3>合作机构意见<i></i></h3>
+                    <p>经六顺小贷风控专员尽职调查，借款人提供的资料真实有效，借款用途合理，收入稳定，还款能力有保
+                        障，符合平台新手标的项目要求，特推荐给平台进行线上资金募集。
+                    </p>
+                </div>
+                <!--内容4 投资记录-->
+                <div class="Project-bewrite-content" style="display: none">
+                    <h2>投资记录<i></i></h2>
+                    <div class="record-lists">
+                        <dl class="record-list" id="record-list-down">
+                            <dt>
+                                <span class="status">状态</span>
+                                <span class="price">投资人</span>
+                                <span class="user">金额</span>
+                                <span class="source">利率</span>
+                                <span class="time">时间</span>
+                            </dt>
+                            <dd>
+                                <span class="status">成功</span>
+                                <span class="price">****0256</span>
+                                <span class="user">10,000.00</span>
+                                <span class="source">10%</span>
+                                <span class="time">2016-09-01 10:46</span>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--中奖名单-->
+        <div class="Project-bewrite-right">
+            <h3>获奖名单</h3>
+            <ul>
+                <li>
+                    <div class="prize-center">
+                        <h4><i class="prize-left-1"></i>一马当先 <i class="prize-right"></i></h4>
+                        <p class="pri-tel">158****3668</p>
+                        <p class="pri-num">获得<em class="red"> 5 </em>元奖励</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="prize-center">
+                        <h4><i class="prize-left-2"></i>独占标头 <i class="prize-right"></i></h4>
+                        <p class="pri-tel">158****3668</p>
+                        <p class="pri-num">获得<em class="red"> 15 </em>元奖励</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="prize-center">
+                        <h4><i class="prize-left-3"></i>终标落定 <i class="prize-right"></i></h4>
+                        <p class="pri-tel">158****3668</p>
+                        <p class="pri-num">获得<em class="red"> 10 </em>元奖励</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--相关资料-->
+        <div class="Project-bewrite-data" id="gallery_list">
+            <h3>相关资料</h3>
+            <ul id="images">
+                <li>
+                    <a title="" class="listimg" target="_blank" href="img/being.png"><img src="img/fuel.png" alt=""></a>
+                </li>
+                <li>
+                    <a title="" class="listimg" target="_blank" href="img/being.png"><img src="img/fuel.png" alt=""></a>
+                </li>
+                <li>
+                    <a title="" class="listimg" target="_blank" href="img/being.png"><img src="img/fuel.png" alt=""></a>
+                </li>
+                <li>
+                    <a title="" class="listimg" target="_blank" href="img/being.png"><img src="img/fuel.png" alt=""></a>
+                </li>
+                <li>
+                    <a title="" class="listimg" target="_blank" href="img/being.png"><img src="img/fuel.png" alt=""></a>
+                </li>
+                <li>
+                    <a title="" class="listimg" target="_blank" href="img/being.png"><img src="img/fuel.png" alt=""></a>
+                </li>
+                <li>
+                    <a title="" class="listimg" target="_blank" href="img/being.png"><img src="img/fuel.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--右侧悬浮回到顶部-->
+<div class="toolbar" id="rights" style="display: none">
+    <a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="Feedback.html" class="toolbar-item toolbar-item-feedback"></a>
+    <a href="javascript:;" id="returnTop" class="toolbar-item toolbar-item-top"></a>
+</div>
+<!--footer开始-->
+<div class="footer">
+    <div class="foo-conter">
+        <div class="foo-t">
+            <div class="foo-top">
+                <div class="foo-one">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="business.html">业务模式</a>
+                            <a target="_blank" href="anenst.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="secure.html">安全保障</a>
+                            <a target="_blank" href="help-center.html">常见问题</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="Franchise-chain.html">连锁加盟</a>
+                            <a target="_blank" href="Franchise-chain.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foo-two">
+                    <p>客服邮箱：kefu@bjdiandaitong.com</p>
+                    <p><i class="tel"></i><b>400-050-3015</b></p>
+                    <p>工作日：09:00~18:00 - 节假日：09:00~18:00</p>
+                </div>
+                <div class="foo-three">
+                    <p>微信扫一扫</p>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="foo-f">
+            <div class="foo-fotr">
+                <p>©2015 北京市典贷通信息服务有限公司 京ICP备15026559号 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnzz.com/stat/website.php?web_id=1255410260" title="站长统计"><em class=""><img src="http://icon.cnzz.com/img/pic.gif" alt=""></em></a></p>
+                <p>北京市海淀区上地国际创业园2号院一号楼17层</p>
+                <p>市场有风险 投资需谨慎</p>
+                <div class="certification">
+                    <a href="javascript:;"><i class="cer-1" title="诚信网站"></i></a>
+                    <a href="javascript:;"><i class="cer-2" title="互联网金融行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-3" title="行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-4" title="360网站安全监测"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer结束-->
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+</body>
+<script>
+    $(document).ready(function () {
+        $('#myStat-3').circliful();
+
+        $(function(){
+            $(".Project-bewrite-left-nav li").click(function(){
+                $(this).addClass("desc").siblings().removeClass("desc"); //切换选中的按钮高亮状态
+                var index=$(this).index(); //获取被按下按钮的索引值，需要注意index是从0开始的
+                $(".Project-bewrite-box > div").eq(index).show().siblings().hide(); //在按钮选中时在下面显示相应的内容，同时隐藏不需要的框架内容
+            });
+        });
+
+    });
+</script>
+<!--倒计时-->
+<script>
+
+   /* var intDiff = parseInt(3600);//倒计时总秒数量
+
+    function timer(intDiff) {
+        window.setInterval(function () {
+            var day = 0,
+                    hour = 0,
+                    minute = 0,
+                    second = 0;//时间默认值
+            if (intDiff > 0) {
+                day = Math.floor(intDiff / (60 * 60 * 24));
+                hour = Math.floor(intDiff / (60 * 60)) - (day * 24);
+                minute = Math.floor(intDiff / 60) - (day * 24 * 60) - (hour * 60);
+                second = Math.floor(intDiff) - (day * 24 * 60 * 60) - (hour * 60 * 60) - (minute * 60);
+            }
+            if (minute <= 9)
+                minute = '0' + minute;
+            if (second <= 9)
+                second = '0' + second;
+            $('#day_show').html(day + "天");
+            $('#hour_show').html('<s id="h"></s>' + hour + '时');
+            $('#minute_show').html('<s></s>' + minute + '分');
+            $('#second_show').html('<s></s>' + second + '秒');
+            intDiff--;
+        }, 1000);
+    }
+
+    $(function () {
+        timer(intDiff);
+    });*/
+
+
+
+
+
+    // 倒计时
+    var interval = 1000;
+    function ShowCountDown(diff) {
+        var hours = Math.floor(diff / (60 * 60));
+        var mins = Math.floor((diff - hours * (60 * 60)) / 60);
+        var seconds = Math.floor(diff - hours * (60 * 60) - mins * 60);
+        var hoursStr = hours >= 10 ? hours : "0" + hours;
+        var minsStr = mins >= 10 ? mins : "0" + mins;
+        var secondsStr = seconds >= 10 ? seconds : "0" + seconds;
+        $("#onLineDate").html(hoursStr + ":" + minsStr + ":" + secondsStr);
+    }
+    window.setInterval(function() {
+        var diffDate = $("#diffDate").val();
+        if(diffDate != null && diffDate != "" && diffDate != '0')
+        {
+            diffDate = diffDate - 1;
+            $("#diffDate").val(diffDate);
+            ShowCountDown(diffDate);
+        }
+        if($("#onShow").val() == 'ok' && diffDate == '0')
+        {
+            location.reload();
+        }
+    }, interval);
+
+</script>
+
+
+<script>
+    $(function () {
+        // Initialize the Gallery as video carousel:
+        $("#gallery_list a").click(function(){
+            blueimp.Gallery($("#gallery_list .listimg"), {
+                container: '#blueimp-gallery',
+                carousel: true,
+                slidesContainer: "div",
+                titleElement: "h3",
+                displayClass: "blueimp-gallery-display",
+                controlsClass: "blueimp-gallery-controls",
+                singleClass: "blueimp-gallery-single",
+                leftEdgeClass: "blueimp-gallery-left",
+                rightEdgeClass: "blueimp-gallery-right",
+                playingClass: "blueimp-gallery-playing",
+                slideClass: "slide",
+                slideLoadingClass: "slide-loading",
+                slideErrorClass: "slide-error",
+                slideContentClass: "slide-content",
+                toggleClass: "toggle",
+                prevClass: "prev",
+                nextClass: "next",
+                closeClass: "close",
+                playPauseClass: "play-pause",
+                typeProperty: "type",
+                titleProperty: "title",
+                urlProperty: "href"
+            });
+            return false;
+        })
+    });
+</script>
+</html>

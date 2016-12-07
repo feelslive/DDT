@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/anenst.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=CnvLGkVbn7Ah2WPpUAWKsorAAr0TFfWF"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="enroll-1.html">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav-list">
+            <ul>
+                <li><a target="_blank" href="index.html">首页</a></li>
+                <li><a target="_blank" href="invest.html">投资理财</a></li>
+                <li><a target="_blank" href="borrow-money.html">借贷专区</a></li>
+                <li><a target="_blank" href="secure.html">安全保障</a></li>
+                <li><a target="_blank" href="anenst.html" class="red">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a target="_blank" href="my-account.html" class="my-cons"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd clearfix">
+    <div class="kong">
+
+    </div>
+    <!---->
+    <!--面包屑导航-->
+    <div class="crumbs" style="background-color:#f3f3f3">
+        <span><a href="javascript:;" title="当前位置">当前位置：</a></span>
+        <span><a href="index.html" target="_blank" title="首页">首页</a>&nbsp;&gt;&nbsp;</span>
+        <span><a href="anenst.html" style="color: #F3270D" target="_blank" title="关于我们">关于我们</a></span>
+    </div>
+    <div class="center">
+        <!--z左侧导航-->
+        <div class="nav-left">
+            <ul>
+                <li class="nav-one"><a href="anenst.html">典贷通金融</a></li>
+                <li><a href="contactus.html" class="red">联系我们</a></li>
+                <li><a href="creditrating.html">信用等级</a></li>
+                <li><a href="Franchise-chain.html">连锁加盟</a></li>
+                <li><a href="press-center.html">新闻中心</a></li>
+                <li><a href="Anno-Center.html">公告中心</a></li>
+            </ul>
+        </div>
+
+        <!--右侧内容-->
+        <div class="center-box">
+            <!--联系我们-->
+            <div class="center-right">
+                <div class="anen-right-nav">
+                    <h3>联系我们</h3>
+                </div>
+                <!--地图-->
+                <div class="map">
+                    <!--百度地图容器-->
+                    <div style="width:721px;height:500px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+                </div>
+                <!--地址-->
+                <div class="address">
+                    <div class="map-icon">
+
+                    </div>
+                    <div class="map-txt">
+                        <p>北京市海淀区上地国际创业园2号院一号楼17层</p>
+                        <p>400-050-3015</p>
+                        <p>100084</p>
+                        <p>扫描如下二维码关注“典贷通”公众号</p>
+                    </div>
+                    <div class="weixin"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--右侧悬浮回到顶部-->
+<div class="toolbar" id="rights" style="display: none">
+    <a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="Feedback.html" class="toolbar-item toolbar-item-feedback"></a>
+    <a href="javascript:;" id="returnTop" class="toolbar-item toolbar-item-top"></a>
+</div>
+<!--footer开始-->
+<div class="footer">
+    <div class="foo-conter">
+        <div class="foo-t">
+            <div class="foo-top">
+                <div class="foo-one">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="business.html">业务模式</a>
+                            <a target="_blank" href="anenst.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="secure.html">安全保障</a>
+                            <a target="_blank" href="help-center.html">常见问题</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="Franchise-chain.html">连锁加盟</a>
+                            <a target="_blank" href="Franchise-chain.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foo-two">
+                    <p>客服邮箱：kefu@bjdiandaitong.com</p>
+                    <p><i class="tel"></i><b>400-050-3015</b></p>
+                    <p>工作日：09:00~18:00 - 节假日：09:00~18:00</p>
+                </div>
+                <div class="foo-three">
+                    <p>微信扫一扫</p>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="foo-f">
+            <div class="foo-fotr">
+                <p>©2015 北京市典贷通信息服务有限公司 京ICP备15026559号 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnzz.com/stat/website.php?web_id=1255410260" title="站长统计"><em class=""><img src="http://icon.cnzz.com/img/pic.gif" alt=""></em></a></p>
+                <p>北京市海淀区上地国际创业园2号院一号楼17层</p>
+                <p>市场有风险 投资需谨慎</p>
+                <div class="certification">
+                    <a href="javascript:;"><i class="cer-1" title="诚信网站"></i></a>
+                    <a href="javascript:;"><i class="cer-2" title="互联网金融行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-3" title="行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-4" title="360网站安全监测"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer结束-->
+
+
+<!--百度地图-->
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){
+        map = new BMap.Map("map");
+        map.centerAndZoom(new BMap.Point(116.312705,40.052684),15);
+    }
+    function setMapEvent(){
+        map.enableScrollWheelZoom();
+        map.enableKeyboard();
+        map.enableDragging();
+        map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+        target.addEventListener("click",function(){
+            target.openInfoWindow(window);
+        });
+    }
+    function addMapOverlay(){
+        var markers = [
+            {content:"地址：北京市海淀区上地国际创业园2号院一号楼17层",title:"典贷通金融（北京）",imageOffset: {width:0,height:3},position:{lat:40.053568,lng:116.312058}}
+        ];
+        for(var index = 0; index < markers.length; index++ ){
+            var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+            var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+                imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+            })});
+            var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+            var opts = {
+                width: 200,
+                title: markers[index].title,
+                enableMessage: false
+            };
+            var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+            marker.setLabel(label);
+            addClickHandler(marker,infoWindow);
+            map.addOverlay(marker);
+        };
+    }
+    //向地图添加控件
+    function addMapControl(){
+        var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+        map.addControl(scaleControl);
+        var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:0});
+        map.addControl(navControl);
+        var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+        map.addControl(overviewControl);
+    }
+    var map;
+    initMap();
+</script>
+<script>
+</script>
+</body>
+</html>

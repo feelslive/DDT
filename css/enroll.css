@@ -1,0 +1,379 @@
+
+.bd {
+    width: 100%;
+    /*height: 500px;*/
+    background-color: #f6f6f6;
+}
+
+.center {
+    padding-bottom:50px;
+}
+/*流程*/
+.flow {
+    width: 816px;
+    height: 116px;
+    margin: 0px auto;
+    overflow: hidden;
+    font-size: 16px;
+    position: relative;
+}
+
+.flow li {
+    float: left;
+    margin: 28px 68px;
+
+}
+.flow i,
+.flow li h6 {
+    background: url("../images/my-account.png") no-repeat;
+}
+.flow li h6 {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-left:16px;
+    text-align: center;
+    line-height:30px;
+}
+
+.flow li .flow-h6-1 {
+    color: #fff;
+    background-position: -2px -537px;
+}
+.flow li .flow-h6-2 {
+    background-position: -38px -537px;
+}
+.flow li .flow-h6-3 {
+    background-position: -38px -537px;
+}
+.flow li .flow-h6-4 {
+    background-position: -73px -537px;
+}
+.flow li .flow-h6-5 {
+    background-position: -107px -537px;
+}
+
+.flow i {
+    width: 160px;
+    height: 3px;
+    background-position: 0 -573px;
+}
+.flow .flow-icon-1 {
+    position: absolute;
+    top: 41px;
+    left: 119px;
+}
+.flow .flow-icon-2 {
+    position: absolute;
+    top: 41px;
+    left: 319px;
+}
+.flow .flow-icon-3 {
+    position: absolute;
+    top: 41px;
+    left: 526px;
+}
+.flow li span {
+    padding-top:10px;
+    display: inline-block;
+}
+
+/*流程结束*/
+
+/**/
+
+
+
+
+/*表单*/
+.form {
+    width: 520px;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    font-size: 16px;
+    color: #1b1b1b;
+    text-align: left;
+    padding: 30px 20px 30px 160px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /*background-color: #f6f6f6;*/
+}
+
+.form div {
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+.form label {
+    width: 90px;
+    font-size: 16px;
+    line-height:40px;
+    display: block;
+    float: left;
+}
+
+.form .infos {
+    width: 256px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #BFBFBF;
+    padding-left:5px;
+    border-radius: 4px;
+    float: left;
+}
+
+.form .div-phone .send1 {
+    height: 36px;
+    line-height: 36px;
+    padding: 2px 8px;
+    background: #8d8d8d;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.form .div-phone .send1:hover {
+    text-decoration: none;
+    background: #6A6A62;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.form .div-phone .send0 {
+    height: 37px;
+    text-decoration: none;
+    line-height: 37px;
+    padding: 2px;
+    width: 80px;
+    background: #A1A1A1;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.form .div-phone .send0:hover {
+    background: #A1A1A1;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.form span.error {
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    color: red;
+    padding-left: 20px;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+
+.form .div-conform {
+    padding-right: 153px;
+}
+
+.form .div-conform a.conform {
+    width: 150px;
+    height: 36px;
+    line-height:36px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #F3270D;
+    border-radius: 3px;
+    margin: 0 110px;
+    color: #fff;
+    background-color: #F3270D;
+}
+.form .div-conform a.conform:hover {
+    color: #fff;
+    background-color: #F3270D;
+}
+
+#phone-message {
+    width: 120px;
+}
+
+
+.hint {
+    margin:20px 0 0 -142px;
+}
+.hint h3,
+.hint p {
+    text-align: center;
+}
+.hint p {
+    color: #999;
+}
+
+
+.banks {
+    width: 263px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+    border: 1px solid #BFBFBF;
+    padding-left:5px;
+    border-radius: 4px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url("../images/select.fw.png") right center no-repeat;
+    cursor: pointer;
+}
+/*表单结束*/
+
+
+
+/*注册成功*/
+.center-hint {
+    width: 250px;
+    height: 200px;
+    /*margin: 0 auto;*/
+    margin:0 0 0 72px;
+    padding-top: 100px;
+}
+.center-hint h3 {
+    color: #656565;
+    text-align: center;
+    line-height:70px;
+    font-size: 24px;
+    text-indent: 40px;
+    position: relative;
+}
+.center-hint h3 i {
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    background: url("../images/success.png") no-repeat center center;
+}
+.center-hint .continue {
+    margin-top:20px;
+}
+.center-hint .continue a {
+    font-size: 16px;
+    color: #F4280D;
+    padding:6px 17px;
+    border: 1px solid #F4280D;
+    border-radius: 5px;
+}
+.center-hint .continue a:first-child {
+    margin-right:46px;
+}
+.center-hint .continue a:hover {
+    color: #fff;
+    background-color: #F4280D;
+}
+/*注册成功结束*/
+
+
+
+/*底部*/
+.foot {
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+
+.foot .foot-center {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+.foot .foot-center h2 {
+    text-align: center;
+    line-height:88px;
+    font-size: 24px;
+    color: #656565;
+    margin: 0 auto;
+}
+.foot .foot-center ul {
+    margin-top:10px;
+}
+
+.foot .foot-center li {
+    float: left;
+    font-size: 18px;
+    text-indent: 60px;
+    margin:0 22px;
+    position: relative;
+}
+
+.foot .foot-center li i {
+    width: 58px;
+    height: 58px;
+
+    background: url("../images/my-account.png") no-repeat;
+}
+
+.foot .foot-center li i.foot-icon-1 {
+    position: absolute;
+    top: -18px;
+    left: -14px;
+    background-position: 0 -414px;
+}
+.foot .foot-center li i.foot-icon-2 {
+    position: absolute;
+    top: -18px;
+    left: -14px;
+    background-position: -61px -414px;
+}
+.foot .foot-center li i.foot-icon-3 {
+    position: absolute;
+    top: -18px;
+    left: -14px;
+    background-position: 0 -474px;
+}
+.foot .foot-center li i.foot-icon-4 {
+    position: absolute;
+    top: -18px;
+    left: -6px;
+    background-position: -68px -474px;
+}
+
+/*底部结束*/
+
+
+
+/*忘记密码*/
+
+.flows {
+    width: 700px;
+    height: 80px;
+
+    margin: 0px auto;
+    overflow: hidden;
+    font-size: 20px;
+    position: relative;
+}
+.flows p {
+    width: 100%;
+    height: 28px;
+    text-indent: 20px;
+    margin-top:40px;
+    border-left: 3px solid #19BD9B;
+}

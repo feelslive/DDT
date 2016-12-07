@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>借贷专区</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/borrow-money.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="enroll-1.html">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav-list">
+            <ul>
+                <li><a target="_blank" href="index.html">首页</a></li>
+                <li><a target="_blank" href="invest.html">投资理财</a></li>
+                <li><a target="_blank" href="borrow-money.html" class="red">借贷专区</a></li>
+                <li><a target="_blank" href="secure.html">安全保障</a></li>
+                <li><a target="_blank" href="anenst.html">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a target="_blank" href="my-account.html" class="my-cons"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd clearfix">
+    <div class="banner" style="position: relative;">
+        <!--<a href="javascript:;" id="money-btn" class="money-btns">立即申请</a>-->
+        <!--<div class="apply">
+            <div class="content" id="apply-moneys">
+                <h3 style="margin:20px 0 25px 0;">申请借款</h3>
+                <form class="applyForm" id="applyForm1" onsubmit="" method="POST" action="apply-success.html" target="_blank">
+                    <div class="name clearfix">
+                        <input type="text" maxlength="2" placeholder="您的姓名" name="xin" autofocus autocomplete="off" class="input-error">
+                        <div class="sex">
+                            <label class=""><input name="sex" type="radio" value=""><span>先生</span></label>
+                            <label class="checked"><input name="sex" type="radio" value="" checked="checked"><span class="mr0">女士</span></label>
+                        </div>
+                    </div>
+                    <div class="sum clearfix">
+                        <input onkeyup="this.value=this.value.replace(/[^0-9|\.^]/g,'');" onafterpaste="this.value=this.value.replace(/\D/g,'');" maxlength="5" placeholder="贷款金额 (万元)" name="money" type="text" accept="number" autocomplete="off" class="input-error">
+                        <div class="area ul-select">
+                            <input type="text" class="dropdown" placeholder="请输入城市"><i class="dropdown-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="tel">
+                        <input type="text" maxlength="11" name="phone" onkeyup="this.value=this.value.replace(/[^0-9|\.^]/g,'');" onafterpaste="this.value=this.value.replace(/\D/g,'');" placeholder="输入手机号" accept="number" autocomplete="off" class="input-error">
+                    </div>
+                    <div class="main-captcha clearfix">
+                        <input type="text" maxlength="4" name="checkCode" id="checkCode" placeholder="输入图形验证码" value="">
+                        <img src="http://cq.edai.com/authImg/show/" class="authimg" id="authimg" style="cursor:pointer;" onclick="this.src=this.src + Math.ceil(Math.random()*10000)" title="看不清？换一张">
+                    </div>
+                    <input type="hidden" name="tmpId" id="tmpid" value="">
+                    <input type="hidden" value="0" name="isUrl" id="isUrl">
+                    <input type="hidden" name="fromAnli" id="fromAnli" value="0">
+                    <input type="hidden" name="source" id="source" value="26">
+                    <input type="submit" class="btn_apply but_submit" value="立即申请">
+                </form>
+            </div>
+        </div>-->
+
+    </div>
+    <!--贷款分类-->
+    <div class="money-center">
+        <h1>借款业务</h1>
+        <ul>
+            <li>
+                <div class="money-pic">
+                    <a href="Pledge-loan.html"><img src="img/money1.png" alt="质押贷" title="质押贷"></a>
+                </div>
+                <div class="money-txt">
+                    <h3>质押贷</h3>
+                    <p>向名下拥有质押物用户提供的专属借款<br>
+                        适用向和典贷通合作的放款机构的借款用户
+                    </p>
+                    <a href="Pledge-loan.html">申请借款</a>
+                </div>
+
+            </li>
+            <li>
+                <div class="money-pic">
+                    <a href="mortgage-loan.html"><img src="img/money2.png" alt="抵押贷" title="抵押贷"></a>
+                </div>
+                <div class="money-txt">
+                    <h3>抵押贷</h3>
+                    <p>向名下拥有质押物用户提供的专属借款<br>
+                        适用向和典贷通合作的放款机构的借款用户
+                    </p>
+                    <a href="mortgage-loan.html">申请借款</a>
+                </div>
+
+            </li>
+            <li>
+                <div class="money-pic">
+                    <a href="Venture-loan.html"><img src="img/money3.png" alt="创业贷" title="创业贷"></a>
+                </div>
+                <div class="money-txt">
+                    <h3>创业贷</h3>
+                    <p>向由固定工作的人担保的用户提供的专属借款<br>
+                        适用向和典贷通合作的小额贷款公司或个人借贷
+                    </p>
+                    <a href="Venture-loan.html">申请借款</a>
+                </div>
+            </li>
+            <li>
+                <div class="money-pic">
+                    <a href="Policy-loan.html"><img src="img/money4.png" alt="保单贷" title="保单贷"></a>
+                </div>
+                <div class="money-txt">
+                    <h3>保单贷</h3>
+                    <p>向拥有一定信用等级用户提供的专属借款<br>
+                        适用向和典贷通合作的小额贷款公司或个人借贷
+                    </p>
+                    <a href="Policy-loan.html">申请借款</a>
+                </div>
+
+            </li>
+        </ul>
+
+    </div>
+    <!--3 步骤-->
+    <div class="money-step">
+        <div class="steps">
+            <h2>简单3部，快速放款</h2>
+            <ul>
+
+                <li>
+                    <i class="step-icon-1"></i>
+                    <span>填写联系方式</span>
+                    <em class="step-left"></em>
+                </li>
+                <li>
+                    <i class="step-icon-2"></i>
+                    <span>借款专员联系您</span>
+                    <em class="step-right"></em>
+                </li>
+                <li>
+                    <i class="step-icon-3"></i>
+                    <span>提交资料，审批放款</span>
+                </li>
+            </ul>
+            <!--<div class="step-btn">-->
+                <!--&lt;!&ndash;<a href="javascript:;">快速借款</a>&ndash;&gt;-->
+            <!--</div>-->
+
+        </div>
+
+    </div>
+    <!--成功者自述-->
+    <div class="success-state">
+        <h2>成功者的自述</h2>
+        <ul>
+            <li>
+                <div class="state-pic">
+                    <img src="img/zhangqi.png" alt="">
+                </div>
+                <h4>张绮 公务员</h4>
+                <p>
+                    我是一名机关公务员，由于爱人目前无业，计划开一家小超市由老婆打理，盘下一个小超市但还有部分资金缺口，
+                    因为本身是政府人员，找银行或亲戚借钱怕影响不好，于是找到了典贷通，经过信用资质审核，
+                    办理了借款业务，第二天就获得了借款，小超市顺利的开张了。
+                </p>
+            </li>
+            <li>
+                <div class="state-pic">
+                    <img src="img/liushuang.png" alt="">
+                </div>
+                <h4>刘爽 工职人员</h4>
+                <p>
+                    最近为儿子办理出国留学需要一笔资金，一时凑不出这么多钱，
+                    又碍于面子不好想亲朋好友开口，于是找到了典贷通，
+                    我和爱人都是国企职工，月收入非常稳定，
+                    信用状况也非常良好，经过审核，办理了贷款业务，
+                    3天后就获得了借款，拿到这笔借款，终于完成了送儿子出国的心愿。
+                </p>
+            </li>
+            <li>
+                <div class="state-pic">
+                    <img src="img/qihaomei.png" alt="">
+                </div>
+                <h4>齐豪梅 自由职业</h4>
+                <p>
+                    爸妈为了撑起这个家辛苦了一辈子，我想带他们去
+                    欧洲旅游散散心，本来要攒一年的工资钱，通过典
+                    贷通成功申请借款分期，现在只需要省一顿大餐的
+                    钱，说走就走了。感谢典贷通，让我能及时完成心
+                    愿。趁现在，享未来。
+                </p>
+            </li>
+        </ul>
+    </div>
+    <!--常见问题-->
+    <div class="money-QA">
+        <div class="money-QA-deta">
+            <h2>常见问题解答</h2>
+            <ul>
+                <li>
+                    <h3>Q：借款申请条件是什么？</h3>
+                    <p class="as">A : 第二代身份证的中国公民；</p>
+                    <p>年龄21岁(含) - 55周岁(含)；</p>
+                    <p>信用记录良好。</p>
+                    <p>其他条件根据您的借款方案具体情况而定, 您可联系客服400-050-3015了解更多。</p>
+                </li>
+                <li>
+                    <h3>Q：申请借款需要提供哪些资料？</h3>
+                    <p class="as">A ：二代身份证原件；</p>
+                    <p>收入证明(最近超过6个月的发薪银行流水) ；</p>
+                    <p>工作证明；</p>
+                    <p>个人征信授权委托书。</p>
+                    <p>您最终所要提供的资料以您的申请情况而定，可联系客服400-050-3015了解更多。</p>
+                </li>
+                <li>
+                    <h3>Q：借款月利率是多少？</h3>
+                    <p class="as">A ：根据您提供的质（抵）押物信息，或信用、负债等综合评分,具体利率以具体业务为准。</p>
+                </li>
+
+
+                <!--部分隐藏QA 通过点击事件显示-->
+                <li class="none-QA">
+                    <h3>Q：我的申请为什么被驳回了？</h3>
+                    <p class="as">A : 有可能是以下这种情况：</p>
+                    <p>您提交的材料不符合借款要求；</p>
+                    <p>征信系统综合评分不足，暂时不能申请此笔借款；</p>
+                </li>
+                <li class="none-QA">
+                    <h3>Q：典贷通借款产品期限是多少？</h3>
+                    <p class="as">A ：典贷通借款质（抵）押标借款期限为5-183天;</p>
+                    <p>信用借款跟担保借款根据借款申请人、担保人信用评分、负债情况等，还款期限有所不同，设定为1个月-24个月;</p>
+                    <p>具体信息您可联系客服400-050-3015。</p>
+                </li>
+                <li class="none-QA">
+                    <h3>Q：如果我忘记还款怎么办？</h3>
+                    <p class="as">A ：如果逾期还款会直接影响到您的信用记录，同时会产生相应违约金。</p>
+                    <p>因此，为了避免造成不必要的损失，请您严格按照还款日进行还款。</p>
+                </li>
+                <li class="none-QA">
+                    <h3>Q：借款审核一般需要多长时间？</h3>
+                    <p class="as">A ：如果借款人提交的材料齐全，当天即可审核通过。</p>
+                </li>
+                <li class="none-QA">
+                    <h3>Q：审核通过后，多久能收到借款？</h3>
+                    <p class="as">A ：借款人通过审核后，最快当天即可放款，通过自己在典贷通网站的账户查询当天即可收到借款。</p>
+                </li>
+                <li class="none-QA">
+                    <h3>Q：如何还款？</h3>
+                    <p class="as">A ：还款日借款人把应还的借款金额存在自己的典贷通账户里，系统会自动扣除。</p>
+                </li>
+                <li class="none-QA">
+                    <a href="help-center.html" style="">没找到您的问题？</a>
+                </li>
+                <li class="money-btn">
+                    <a href="javascript:;" title="查看更多">查看更多</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<!--右侧悬浮回到顶部-->
+<div class="toolbar" id="rights" style="display: none">
+    <a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="Feedback.html" class="toolbar-item toolbar-item-feedback"></a>
+    <a href="javascript:;" id="returnTop" class="toolbar-item toolbar-item-top"></a>
+</div>
+<!--footer开始-->
+<div class="footer">
+    <div class="foo-conter">
+        <div class="foo-t">
+            <div class="foo-top">
+                <div class="foo-one">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="business.html">业务模式</a>
+                            <a target="_blank" href="anenst.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="secure.html">安全保障</a>
+                            <a target="_blank" href="help-center.html">常见问题</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="Franchise-chain.html">连锁加盟</a>
+                            <a target="_blank" href="Franchise-chain.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foo-two">
+                    <p>客服邮箱：kefu@bjdiandaitong.com</p>
+                    <p><i class="tel"></i><b>400-050-3015</b></p>
+                    <p>工作日：09:00~18:00 - 节假日：09:00~18:00</p>
+                </div>
+                <div class="foo-three">
+                    <p>微信扫一扫</p>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="foo-f">
+            <div class="foo-fotr">
+                <p>©2015 北京市典贷通信息服务有限公司 京ICP备15026559号 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnzz.com/stat/website.php?web_id=1255410260" title="站长统计"><em class=""><img src="http://icon.cnzz.com/img/pic.gif" alt=""></em></a></p>
+                <p>北京市海淀区上地国际创业园2号院一号楼17层</p>
+                <p>市场有风险 投资需谨慎</p>
+                <div class="certification">
+                    <a href="javascript:;"><i class="cer-1" title="诚信网站"></i></a>
+                    <a href="javascript:;"><i class="cer-2" title="互联网金融行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-3" title="行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-4" title="360网站安全监测"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer结束-->
+</body>
+
+<script>
+    $(function () {
+        /*banner 按钮滑动*/
+        $('#money-btn').animate({
+            opacity: '1',
+            right: '950px'
+        }, 1500);
+
+        $('#apply-moneys').animate({
+            opacity: '1',
+            top: '0px'
+        }, 1000);
+
+
+
+        /*点击显示隐藏的部分QA 把自己隐藏*/
+        $('.money-btn').click(function () {
+            $(this).hide();
+            $('.none-QA').show();
+        })
+    })
+
+</script>
+</html>

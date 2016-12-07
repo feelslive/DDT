@@ -1,0 +1,205 @@
+.bd {
+}
+
+/*banner*/
+.banner {
+    height: 450px;
+    width: 100%;
+    background: url("../images/booksbg.jpg") no-repeat center center;
+}
+
+.beg-center {
+    /*width: 1200px;*/
+    margin: 0 auto;
+}
+.all-box>div:nth-child(odd)
+{
+    background:#FBFBFB;
+}
+.all-box>div:nth-child(even)
+{
+    background:#ffffff;
+}
+
+
+.all-box .allsp {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.all-box-1 {
+    height: 610px;
+}
+.all-box-2 {
+    height: 620px;
+}
+.all-box-3 {
+    height: 590px;
+}
+.all-box-4 {
+    height: 556px;
+}
+.allsp > span {
+    display: block;
+    margin:20px 0 40px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+}
+.all-box-1 > p {
+    text-indent: 50px;
+    font-size: 16px;
+    color: #656565;
+    line-height:40px;
+}
+.news-tit {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #5f5f5f;
+    margin-top:50px;
+    text-align: center;
+}
+.news-tit i {
+    display: block;
+    margin-top:25px;
+    width: 421px;
+    height: 4px;
+    background: url("../images/whystop.fw.png") no-repeat;
+}
+
+.why-icom-1 {
+    float: left;
+}
+.why-icom-2 {
+    float: right;
+}
+.whys1 {
+    margin-top:80px;
+    width: 1200px;
+    height: 191px;
+    background: url("../images/whys1.fw.png") no-repeat;
+}
+.whys2 {
+    width: 758px;
+    height: 289px;
+    margin:50px 0 0 250px;
+    background: url("../images/lucre.fw.png") no-repeat;
+}
+
+.all-box-2 .whys-ps {
+    width: 270px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #333;
+    margin-top:50px;
+
+}
+.all-box-2 .whys-ps p {
+    margin:10px 0  5px 0;
+    position: relative;
+}
+.all-box-2 .whys-ps p i {
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #F3270D;
+}
+.why-one li {
+    float: left;
+    margin:0 40px;
+    width: 220px;
+}
+.why-one li span {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+.why-one li p {
+    margin-top:20px;
+    font-size: 14px;
+    color: #656565;
+    text-align: center;
+}
+.why-one li i {
+    width: 132px;
+    height: 132px;
+    display: block;
+    margin: 26px auto 30px auto;
+    background: url("../images/why3.fw.png") no-repeat;
+}
+
+.why-one li i.help-icon-1 {
+    background-position: 0 0;
+}
+.why-one li i.help-icon-2 {
+    background-position: -172px 0;
+}
+.why-one li i.help-icon-3 {
+    background-position: -339px 0;
+}
+.why-one li i.help-icon-4 {
+    background-position: -508px 0;
+}
+.why-co {
+    width: 200px;
+    height: 40px;
+    margin: 30px auto 0 auto;
+}
+.why-co a {
+    width: 200px;
+    height: 40px;
+    line-height:42px;
+    border-radius: 10px;
+    color: #F3270D;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    color: #F3270D;
+    border: 1px solid #F3270D;
+}
+.why-co a:hover{
+    color: #FFF;
+    background-color: #F3270D;
+}
+.all-box-3>span.tishis {
+    font-size: 12px;color: #656565; text-align: right;margin-top: 0;
+}
+.all-box-2>span.tishis {
+    font-size: 12px;color: #656565; text-align: right;margin-top: 0;
+}
+
+.whys3 {
+    width: 735px;
+    height: 195px;
+    margin:50px 0 0 230px;
+    background: url("../images/stops.fw.png") no-repeat;
+}
+.why-cos {
+    width: 200px;
+    height: 40px;
+    margin: 60px auto 0 auto;
+}
+
+.why-cos a {
+    width: 200px;
+    height: 40px;
+    line-height:42px;
+    border-radius: 10px;
+    color: #FA7729;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    color: #FA7729;
+    border: 1px solid #FA7729;
+}
+.why-cos a:hover{
+    color: #FFF;
+    background-color: #FA7729;
+}

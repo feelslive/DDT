@@ -1,0 +1,686 @@
+.bd {
+    width: 100%;
+    /*height: 100%;*/
+    /*overflow:hidden;*/
+    background-color: #f3f3f3;
+}
+
+.banner {
+    height: 340px;
+    width: 100%;
+    position: relative;
+    background: url("../images/banner3.png") no-repeat center center;
+}
+
+.banner>a {
+    display: inline-block;
+    width: 178px;
+    height: 43px;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    line-height: 43px;
+    margin-top: 36px;
+    border-radius: 5px;
+    position: absolute;
+    left: 400px;
+    top: 210px;
+    border: 1px solid #32C1D3;
+    background-color: #32C1D3;
+}
+
+/*.banner>a:hover {*/
+    /*color: #fff;*/
+    /**/
+/*}*/
+
+/*申请*/
+/*申请贷款*/
+
+/*.banner .apply .content {
+    position: absolute;
+    right: 300px;
+    border-radius: 5px;
+    background: url(../images/applybg.png);
+    color: #fff;
+    opacity: 0;
+    width: 310px;
+    height: 340px;
+    top: -500px;
+}
+
+.banner .apply .content h3 {
+    text-align: center;
+    margin: 8px 0 10px 0;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.banner .apply .content form {
+    text-align: center;
+}
+
+.banner .apply .content form input[type="radio"] {
+    padding-right:10px;
+    vertical-align: text-bottom;
+    margin-bottom: 1px;
+    *margin-bottom: -1px;  //兼容IE6，IE7
+}
+
+.apply .content .name,
+.apply .content .sum,
+.apply .content .tel,
+.apply .content .btn_apply {
+    width: 240px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.apply .content .sum input[type="text"],
+.apply .content .tel input[type="text"] {
+    height: 32px;
+    width: 240px;
+    line-height: 32px;
+    display: block;
+    font-size: 14px;
+    top: 25px;
+}
+
+.apply .content .name input[type="text"] {
+    height: 32px;
+    width: 120px;
+    line-height: 32px;
+    display: block;
+    font-size: 14px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.apply .content .sum .area input[type="text"] {
+    width: 110px;
+    float: right;
+    color: #999;
+    cursor: pointer;
+}
+
+.apply .content .sum input[type="text"] {
+    width: 120px;
+    float: left;
+}
+
+
+.apply .content label span {
+    font-size: 14px;
+    padding:0 0 0 3px;
+}
+.apply .content .name .sex {
+    position: relative;
+    top: 10px;
+}
+
+.apply .content label {
+    cursor: pointer;
+    width: 12px;
+    height: 20px;
+}
+
+.apply .content .sum {
+    position: relative;
+    z-index: 5;
+    height: 32px;
+}
+
+.apply .content .main-captcha {
+    width: 240px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.apply .content .btn_apply {
+    height: 40px;
+    top: 0px;
+
+}
+
+.btn_apply {
+    background-color: #009944;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #009944;
+    cursor: pointer;
+}
+
+.banner .apply .content form input[type="text"] {
+    border: 1px solid #ccc;
+    text-indent: 12px;
+}
+
+.apply .content .main-captcha input[type="text"] {
+    height: 32px;
+    width: 120px;
+    line-height: 32px;
+    font-size: 14px;
+    float: left;
+}
+
+.apply .content .main-captcha img {
+    width: 110px;
+    height: 34px;
+    float: right;
+    cursor: pointer;
+}*/
+
+/*3-步骤*/
+.money-four-step {
+    height: 426px;
+    width: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+.money-four-step .step-btn {
+    width: 150px;
+    height: 40px;
+    /*margin: 288px 0 0 450px;*/
+    margin: 288px auto 0;
+}
+
+.money-four-step .step-btn a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    color: #32C1D3;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #32C1D3;
+    border-radius: 5px;
+}
+
+.money-four-step .step-btn a:hover {
+    color: #fff;
+    font-size: 16px;
+    background-color: #32C1D3;
+}
+
+.money-four-step .steps {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.money-four-step .steps h2 {
+    width: 150px;
+    height: 38px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 140px;
+    font-size: 40px;
+}
+
+.money-four-step .steps p {
+    width: 144px;
+    height: 28px;
+    margin: 0 auto;
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 43%;
+}
+
+.money-four-step .steps li {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 100%;
+    margin: 100px 0 0 0;
+    /*margin:100px 96px;*/
+    cursor: pointer;
+}
+
+.money-four-step .steps i {
+    background: url("../images/my-mortgage.png") no-repeat;
+}
+
+.money-four-step .steps i {
+    width: 180px;
+    height: 180px;
+    -webkit-transition: -webkit-transform 1s ease-out;
+    -moz-transition: -moz-transform 1s ease-out;
+    -o-transition: -o-transform 1s ease-out;
+    -ms-transition: -ms-transform 1s ease-out;
+
+}
+
+.money-four-step .steps i:hover {
+    -webkit-transform: rotateZ(360deg) scale(1.03);
+    -moz-transform: rotateZ(360deg) scale(1.03);
+    -o-transform: rotateZ(360deg) scale(1.03);
+    -ms-transform: rotateZ(360deg) scale(1.03);
+    transform: rotateZ(360deg) scale(1.03);
+}
+
+.money-four-step .steps i.step-icon-1 {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-position: 0px 0px;
+}
+
+.money-four-step .steps i.step-icon-2 {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-position: 0px -189px;
+}
+
+.money-four-step .steps i.step-icon-3 {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-position: -189px 0px;
+}
+
+.money-four-step .steps i.step-icon-4 {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-position: -189px -189px;
+}
+
+.money-four-step .steps li h6 {
+    margin-bottom: 200px;
+    color: #656565;
+    font-size: 30px;
+}
+
+.money-four-step .steps li span {
+    color: #999;
+    font-size: 18px;
+}
+
+/*4-步骤结束*/
+
+.money-apply {
+    width: 100%;
+    float: left;
+    background-color: #F3F3F3;
+}
+
+.money-apply ul {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+.money-apply ul li {
+    height: 580px;
+    float: left;
+    margin: 50px 0;
+    padding: 0 50px;
+}
+
+.money-apply-left {
+    width: 499px;
+    border-right: 1px solid #FB6B5D;
+}
+
+.money-apply-right {
+    width: 499px;
+}
+
+.money-apply ul li p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #656565;
+}
+
+.money-apply ul li h1 {
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+
+.money-apply ul li i {
+    display: inline-block;
+    background: url("../images/my-mortgage.png") no-repeat;
+}
+
+.money-apply ul li i.apply-icon-1 {
+    width: 156px;
+    height: 159px;
+    margin: 40px 0 40px 164px;
+    background-position: -385px 0;
+}
+
+.money-apply ul li i.apply-icon-2 {
+    width: 125px;
+    height: 147px;
+    margin: 40px 0 40px 188px;
+    background-position: -385px -205px;
+}
+
+/*公司信息*/
+
+.company-state {
+    float: left;
+    height: 619px;
+    width: 100%;
+    padding-bottom: 50px;
+    /*margin-bottom:30px;*/
+    background-color: #fff;
+}
+
+.company-state h2 {
+    width: 240px;
+    height: 50px;
+    margin: 30px auto;
+    color: #000;
+    font-size: 40px;
+}
+
+.company-state h5 {
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0;
+    color: #656565;
+}
+
+.company-state ul {
+    width: 1158px;
+    /*height: 100%;*/
+    margin: 0 auto;
+}
+.company-state .com-list-a {
+    display: inline-block;
+    width: 249px;
+    height: 450px;
+    padding:10px;
+    border: 1px solid #BEBEBE;
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+}
+.company-state .com-list-a:hover {
+    border: 1px solid #F3270D;
+}
+.company-state li {
+    width: 249px;
+    height: 450px;
+    float: left;
+    margin: 0px 17.5px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.company-state .state-pic {
+    width: 249px;
+    height: 280px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+.company-state .state-pic img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.company-state li h4 {
+    font-size: 16px;
+    color: #000;
+    margin:20px 0 22px 0;
+    /*line-height: 50px;*/
+}
+
+.company-state li p {
+    color: #656565;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/*公司结束*/
+
+.apply-btn {
+    /*width: 130px;*/
+    /*height: 130px;*/
+    /*float: left;*/
+}
+
+.apply-btn a {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    margin: 20px 0 45px 45%;
+    background: url("../images/my-mortgage.png") no-repeat -568px 0;
+}
+
+/*填写资料申请开始*/
+
+.information {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0px auto 0px auto;
+    padding: 40px 0;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+    /*background:url("../images/applybg.png");*/
+    background-color: #D9F1F1;
+}
+
+.mation-txt {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.information .form-info {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background: #fff;*/
+}
+
+.information .form-info form {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    border-radius: 5px;
+    padding:20px 20px 20px 100px;
+    background: #fff;
+}
+
+.information .form-info h6 {
+    color: #F3270D;
+    margin: 10px 0 10px 20px;
+    font-size: 14px;
+}
+
+.information .form-info label {
+    display: block;
+    margin: 10px 0px 15px 20px;
+    font-size: 18px;
+    position: relative;
+}
+
+.labinfo p {
+    line-height: 177px;
+    float: left;
+}
+
+.information .form-info label span {
+    position: absolute;
+    top: 18px;
+    left: 474px;
+}
+
+.information .form-info label em {
+    color: #F3270D;
+    display: none;
+    font-size: 16px;
+}
+
+.information .form-info label h5 {
+    font-size: 14px;
+    float: right;
+    margin: 10px 498px 0 0;
+}
+
+.information .form-info .input-infos,
+.information .form-info select {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+    margin: 10px 0 0 20px;
+    padding: 6px 10px;
+    /*color: #333;*/
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+
+}
+
+.information .form-info select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../images/select.fw.png") right center no-repeat;
+    cursor: pointer;
+}
+
+.information .form-info textarea {
+    width: 450px;
+    height: 150px;
+    font-size: 18px;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+    margin: 10px 0 0 25px;
+    border-radius: 2px;
+    border: 1px solid #c5c5c5;
+    padding: 5px;
+    outline: none;
+    resize: none;
+    box-shadow: 0 1px 3px #eee inset;
+}
+
+.information .form-info input[type=file] {
+
+}
+
+.a-upload {
+    margin: 0px 0 0 18px;
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #ededed;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+}
+
+.a-upload input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+
+.up-pic {
+    position: absolute;
+    top: 0;
+    right: 420px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    background-color: #FF6905;
+}
+
+.up-pic:hover {
+    color: #fff;
+}
+
+.information .form-info .btn .button {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px 0 0 100px;
+    background-color: #32C1D3;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+}
+
+.information .form-info .btn .button:hover {
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+/*担保人*/
+label .warr-name {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+    margin: 10px 0 0 30px;
+    padding: 6px 10px;
+    /*color: #333;*/
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+}
+
+label .wa1 {
+    margin: 10px 0 0 18px !important;
+}
+
+label .wa2 {
+    margin: 10px 0 0 12px !important;
+}
+
+label .warr-num {
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+    margin: 10px 0 0 15px;
+    padding: 6px 10px;
+    /*color: #333;*/
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+}
+
+/*填写资料申请结束*/
+
+

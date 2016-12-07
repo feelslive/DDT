@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>投资理财</title>
+    <!--公共样式-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/invest.css">
+    <script src="js/jquery-1.8.2.js"></script>
+    <!--分页-query.js + paging.js-->
+    <script type="text/javascript" src="js/query.js"></script>
+    <script type="text/javascript" src="js/paging.js"></script>
+    <!--统计圆-->
+    <script src="js/jquery.circliful.min.js"></script>
+    <!--公共js-->
+    <script src="js/common.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div class="head">
+    <!--顶头-->
+    <div class="top-head">
+        <div class="top-menu">
+            <!--左边-->
+            <div class="top-left">
+                <p>客服热线: &nbsp;400-050-3015</p>
+                <!--微信二维码-->
+                <div class="mobile">
+                    <p class="icc" id="wechat">
+                        <i class="Wechat"></i>微信
+                    </p>
+                    <!--二维码-->
+                    <div class="wecgat-rq">
+                    </div>
+                </div>
+                <!--QQ客服-->
+                <p class="icc"><a href="javascript:;" target="_blank"><i class="QQ"></i>客服</a></p>
+
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <a target="_blank" href="enroll-1.html">快速注册</a>
+                <a target="_blank" href="login.html">立即登录</a>
+                <a target="_blank" href="help-center.html">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <!--LOGO及导航-->
+    <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav-list">
+            <ul>
+                <li><a target="_blank" href="index.html">首页</a></li>
+                <li><a target="_blank" href="javascript:;" class="red">投资理财</a></li>
+                <li><a target="_blank" href="borrow-money.html">借贷专区</a></li>
+                <li><a target="_blank" href="secure.html">安全保障</a></li>
+                <li><a target="_blank" href="anenst.html">关于我们</a></li>
+                <li><a target="_blank" href="Beginners-Guide.html">新手引导</a></li>
+                <li><a target="_blank" href="my-account.html" class="my-cons"><i class="my-con"></i>我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!--head结束-->
+<div class="bd">
+    <div class="banner">
+    </div>
+    <!--条件筛选-->
+    <div class="my-screen">
+        <div id="main">
+            <div class="demo">
+                <ul class="select">
+                    <li class="select-list">
+                        <dl id="select1">
+                            <dt>类型：</dt>
+                            <dd class="select-all selected"><a href="javascript:;">全部</a></dd>
+                            <dd><a href="javascript:;">新手标</a></dd>
+                            <dd><a href="javascript:;">质押标</a></dd>
+                            <dd><a href="javascript:;">抵押标</a></dd>
+                            <dd><a href="javascript:;">担保标</a></dd>
+                            <dd><a href="javascript:;">信用标</a></dd>
+                        </dl>
+                    </li>
+                    <li class="select-list">
+                        <dl id="select2">
+                            <dt>收益：</dt>
+                            <dd class="select-all selected"><a href="javascript:;">全部</a></dd>
+                            <dd><a href="javascript:;">10%以下</a></dd>
+                            <dd><a href="javascript:;">10%-12%</a></dd>
+                            <dd><a href="javascript:;">12%以上</a></dd>
+                        </dl>
+                    </li>
+                    <li class="select-list">
+                        <dl id="select3">
+                            <dt>周期：</dt>
+                            <dd class="select-all selected"><a href="javascript:;">全部</a></dd>
+                            <dd><a href="javascript:;">60天以下</a></dd>
+                            <dd><a href="javascript:;">60-180天</a></dd>
+                            <dd><a href="javascript:;">180-360天</a></dd>
+                            <dd><a href="javascript:;">360天以上</a></dd>
+                        </dl>
+                    </li>
+                    <li class="select-result">
+                        <dl>
+                            <dt>已选条件：</dt>
+                            <dd class="select-no">暂时没有选择过滤条件</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--排序-->
+    <div class="compositor">
+        <ul>
+            <li class="desc">默认排序</li>
+            <li class="filter-1">收益率 <i></i>
+                <div class="sitor sit-1">
+                    <p><a href="">由高到低</a></p>
+                    <p><a href="">由低到高</a></p>
+                </div>
+            </li>
+            <li class="filter-2">还款日期<i></i>
+                <div class="sitor sit-2">
+                    <p><a href="">由近到远</a></p>
+                    <p><a href="">由远到近</a></p>
+                </div>
+
+            </li>
+            <li class="filter-3">融资金额<i></i>
+                <div class="sitor sit-3">
+                    <p><a href="">由高到低</a></p>
+                    <p><a href="">由低到高</a></p>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    <!--bd-two开始-->
+    <div class="bd-two">
+        <!--投资理财-->
+        <div class="specialty">
+            <div class="specia-right">
+                <div class="spec-list spec-over">
+                    <div class="spec-title">
+                        <h4>
+                            <p>
+                                <i class="new-icon new-icon-2"></i>
+                                <a href="details.html">质押借款权健质健质押押借款权健质押借款权健质押借款
+                                </a>
+                                <em class="noviceTip">新手专享</em>
+                            </p>
+                            <span>合作机构：<a href="company-details.html">百达兴业百达兴业达兴业达兴业</a></span>
+                        </h4>
+
+                    </div>
+                    <ul>
+                        <li class="railist">
+                            <h2 class="red">11.0<em>%</em></h2>
+                            <p>年化收益率</p>
+                        </li>
+                        <li class="raili">
+                            <h2>120<em>天</em></h2>
+                            <p>投资周期</p>
+                        </li>
+                        <li>
+                            <h2>8<em>万</em></h2>
+                            <p>融资金额</p>
+                        </li>
+                        <li class="yuan"><!--统计圆-->
+                            <div class="myStat" data-dimension="100" data-text="50%"  data-info="融资进度" data-width="3" data-fontsize="26" data-percent="50" data-fgcolor="#F4280D" data-bgcolor="#ccc">
+                            </div>
+                        </li>
+                        <li>
+                            <h2>4<em>万</em></h2>
+                            <p>还需金额</p>
+                        </li>
+                        <li>
+                            <h3>2016-12-22</h3>
+                            <p>还款日期</p>
+                        </li>
+                        <li>
+                            <a href="details.html" class="oncgs">08日16:00开售</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="spec-list spec-over">
+                    <div class="spec-title">
+                        <h4>
+                            <p>
+                                <i class="new-icon new-icon-2"></i>
+                                <a href="details.html">质押借款权健质健质押押借款权健质押借款权健质押借款
+                                </a>
+                            </p>
+                            <span>合作机构：<em><a href="company-details.html">百达兴业百达兴业达兴业达兴业</a></em></span>
+                        </h4>
+
+                    </div>
+                    <ul>
+
+                        <li class="railist">
+                            <h2 class="red">11.0<em>%</em></h2>
+                            <p>年化收益率</p>
+                        </li>
+                        <li class="raili">
+                            <h2>120<em>天</em></h2>
+                            <p>投资周期</p>
+                        </li>
+                        <li>
+                            <h2>8<em>万</em></h2>
+                            <p>融资金额</p>
+                        </li>
+                        <li class="yuan"><!--统计圆-->
+                            <div class="myStat" data-dimension="100" data-text="50%"  data-info="融资进度" data-width="3" data-fontsize="26" data-percent="50" data-fgcolor="#F4280D" data-bgcolor="#ccc">
+                            </div>
+                        </li>
+                        <li>
+                            <h2>4<em>万</em></h2>
+                            <p>还需金额</p>
+                        </li>
+                        <li>
+                            <h3>2016-12-22</h3>
+                            <p>还款日期</p>
+                        </li>
+                        <li>
+                            <a href="details.html" class="onces">立即投资</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="spec-list spec-over">
+                    <div class="spec-title">
+                        <h4>
+                            <p>
+                                <i class="new-icon new-icon-2"></i>
+                                <a href="details.html">质押借款权健质健质押押借款权健质押借款权健质押借款
+                                </a>
+                            </p>
+                            <span>合作机构：<em><a href="company-details.html">百达兴业百达兴业达兴业达兴业</a></em></span>
+                        </h4>
+                    </div>
+                    <ul>
+
+                        <li>
+                            <h2 class="red">11.0<em>%</em></h2>
+                            <p>年化收益率</p>
+                        </li>
+                        <li>
+                            <h2>120<em>天</em></h2>
+                            <p>投资周期</p>
+                        </li>
+                        <li>
+                            <h2>8<em>万</em></h2>
+                            <p>融资金额</p>
+                        </li>
+                        <li class="yuan"><!--统计圆-->
+                            <div class="myStat" data-dimension="100" data-text="50%"  data-info="融资进度" data-width="3" data-fontsize="26" data-percent="50" data-fgcolor="#F4280D" data-bgcolor="#ccc">
+                            </div>
+                        </li>
+                        <li>
+                            <h2>4<em>万</em></h2>
+                            <p>还需金额</p>
+                        </li>
+                        <li>
+                            <h3>2016-12-22</h3>
+                            <p>还款日期</p>
+                        </li>
+                        <li>
+                            <a href="details.html" class="onces">立即投资</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="spec-list spec-over">
+                    <div class="spec-title">
+                        <h4>
+                            <p>
+                                <i class="new-icon new-icon-3"></i>
+                                <a href="details.html">质押借款权健质健质押押借款权健质押借款权健质押借款
+                                </a>
+                            </p>
+                            <span>合作机构：<em><a href="company-details.html">百达兴业百达兴业达兴业达兴业</a></em></span>
+                        </h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <h2 class="red">11.0<em>%</em></h2>
+                            <p>年化收益率</p>
+                        </li>
+                        <li>
+                            <h2>120<em>天</em></h2>
+                            <p>投资周期</p>
+                        </li>
+                        <li>
+                            <h2>8<em>万</em></h2>
+                            <p>融资金额</p>
+                        </li>
+                        <li class="yuan"><!--统计圆-->
+                            <div class="myStat" data-dimension="100" data-text="50%"  data-info="融资进度" data-width="3" data-fontsize="26" data-percent="50" data-fgcolor="#F4280D" data-bgcolor="#ccc">
+                            </div>
+                        </li>
+                        <li>
+                            <h2>4<em>万</em></h2>
+                            <p>还需金额</p>
+                        </li>
+                        <li>
+                            <h3>2016-12-22</h3>
+                            <p>还款日期</p>
+                        </li>
+                        <li>
+                            <a href="details.html" class="onces">立即投资</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--还款中-->
+                <div class="spec-list spec-over">
+                    <div class="spec-title">
+                        <h4>
+                            <p>
+                                <i class="new-icon new-icon-4"></i>
+                                <a href="details.html">质押借款权健质健质押押借款权健质押借款权健质押借款
+                                </a>
+                            </p>
+                            <span>合作机构：<em><a href="company-details.html">百达兴业百达兴业达兴业达兴业</a></em></span>
+                        </h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <h2 class="red">11.0<em>%</em></h2>
+                            <p>年化收益率</p>
+                        </li>
+                        <li>
+                            <h2>120<em>天</em></h2>
+                            <p>投资周期</p>
+                        </li>
+                        <li>
+                            <h2>8<em>万</em></h2>
+                            <p>融资金额</p>
+                        </li>
+                        <li class="yuan"><!--统计圆-->
+                            <div class="myStat" data-dimension="100" data-text="100%"  data-info="融资进度" data-width="3" data-fontsize="26" data-percent="100" data-fgcolor="#F4280D" data-bgcolor="#ccc">
+                            </div>
+                        </li>
+                        <li>
+                            <h2>4<em>万</em></h2>
+                            <p>还需金额</p>
+                        </li>
+                        <li>
+                            <h3>2016-12-22</h3>
+                            <p>还款日期</p>
+                        </li>
+                        <li>
+                            <a href="details.html" class="onchs">还款中</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--还款中-->
+                <div class="spec-list spec-over">
+                    <div class="spec-title">
+                        <h4>
+                            <p>
+                                <i class="new-icon new-icon-5"></i>
+                                <a href="details.html">质押借款权健质健质押押借款权健质押借款权健质押借款
+                                </a>
+                            </p>
+                            <span>合作机构：<em><a href="company-details.html">百达兴业百达兴业达兴业达兴业</a></em></span>
+                        </h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <h2 class="red">11.0<em>%</em></h2>
+                            <p>年化收益率</p>
+                        </li>
+                        <li>
+                            <h2>120<em>天</em></h2>
+                            <p>投资周期</p>
+                        </li>
+                        <li>
+                            <h2>8<em>万</em></h2>
+                            <p>融资金额</p>
+                        </li>
+                        <li class="yuan"><!--统计圆-->
+                            <div class="myStat" data-dimension="100" data-text="100%"  data-info="融资进度" data-width="3" data-fontsize="26" data-percent="100" data-fgcolor="#999" data-bgcolor="#ccc">
+                            </div>
+                        </li>
+                        <li>
+                            <h2>0<em>万</em></h2>
+                            <p>还需金额</p>
+                        </li>
+                        <li>
+                            <h3>2016-12-22</h3>
+                            <p>还款日期</p>
+                        </li>
+                        <li>
+                            <a href="details.html" class="onchs">还款成功</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--bd-two结束-->
+
+    <!--分页-->
+    <div id="pageToolbar"></div>
+    <!--分页结束-->
+
+</div>
+
+<!--右侧悬浮回到顶部-->
+<div class="toolbar" id="rights" style="display: none">
+    <a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="Feedback.html" class="toolbar-item toolbar-item-feedback"></a>
+    <a href="javascript:;" id="returnTop" class="toolbar-item toolbar-item-top"></a>
+</div>
+<!--footer开始-->
+<div class="footer">
+    <div class="foo-conter">
+        <div class="foo-t">
+            <div class="foo-top">
+                <div class="foo-one">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="business.html">业务模式</a>
+                            <a target="_blank" href="anenst.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="secure.html">安全保障</a>
+                            <a target="_blank" href="help-center.html">常见问题</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="Franchise-chain.html">连锁加盟</a>
+                            <a target="_blank" href="Franchise-chain.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foo-two">
+                    <p>客服邮箱：kefu@bjdiandaitong.com</p>
+                    <p><i class="tel"></i><b>400-050-3015</b></p>
+                    <p>工作日：09:00~18:00 - 节假日：09:00~18:00</p>
+                </div>
+                <div class="foo-three">
+                    <p>微信扫一扫</p>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="foo-f">
+            <div class="foo-fotr">
+                <p>©2015 北京市典贷通信息服务有限公司 京ICP备15026559号 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnzz.com/stat/website.php?web_id=1255410260" title="站长统计"><em class=""><img src="http://icon.cnzz.com/img/pic.gif" alt=""></em></a></p>
+                <p>北京市海淀区上地国际创业园2号院一号楼17层</p>
+                <p>市场有风险 投资需谨慎</p>
+                <div class="certification">
+                    <a href="javascript:;"><i class="cer-1" title="诚信网站"></i></a>
+                    <a href="javascript:;"><i class="cer-2" title="互联网金融行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-3" title="行业认证"></i></a>
+                    <a href="javascript:;"><i class="cer-4" title="360网站安全监测"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer结束-->
+</body>
+
+<script>
+    /*分页*/
+    $('#pageToolbar').Paging({pagesize:10,count:100,toolbar:true,callback:function(page,size,count){
+        console.log(arguments)
+        console.log('当前第 ' +page +'页,每页 '+size+'条,总页数：'+count+'页')
+    }});
+
+</script>
+
+<script>
+    /*统计圆js*/
+    $(function () {
+        $('.myStat').circliful();
+    });
+
+    /*排序切换*/
+    $(function(){
+        $(".compositor ul li").click(function(){
+            $(this).addClass("desc").siblings().removeClass("desc"); //切换选中的按钮高亮状态
+        });
+
+    });
+    $(function () {
+
+        $(".desc").click(function () {
+            $('.sit-1').hide();
+            $(".sit-2").hide();
+            $(".sit-3").hide();
+            $('.filter-1>i').css("background-position","-300px 0");
+            $('.filter-2>i').css("background-position","-300px 0");
+            $('.filter-3>i').css("background-position","-300px 0");
+        })
+        $(".filter-1").click(function () {
+            $('.sit-1').slideToggle(500);
+            $(".sit-2").hide();
+            $(".sit-3").hide();
+            $('.filter-1>i').css("background-position","-314px 0");
+            $('.filter-2>i').css("background-position","-300px 0");
+            $('.filter-3>i').css("background-position","-300px 0");
+        })
+        $(".filter-2").click(function () {
+            $('.sit-2').slideToggle(500);
+            $(".sit-1").hide();
+            $(".sit-3").hide();
+            $('.filter-1>i').css("background-position","-300px 0");
+            $('.filter-3>i').css("background-position","-300px 0");
+            $('.filter-2>i').css("background-position","-314px 0");
+        })
+        $(".filter-3").click(function () {
+            $('.sit-3').slideToggle(500);
+            $(".sit-2").hide();
+            $(".sit-1").hide();
+            $('.filter-1>i').css("background-position","-300px 0");
+            $('.filter-2>i').css("background-position","-300px 0");
+            $('.filter-3>i').css("background-position","-314px 0");
+        })
+    })
+
+
+    /*条件筛选*/
+    $(document).ready(function(){
+
+        $("#select1 dd").click(function () {
+            $(this).addClass("selected").siblings().removeClass("selected");
+            if ($(this).hasClass("select-all")) {
+                $("#selectA").remove();
+            } else {
+                var copyThisA = $(this).clone();
+                if ($("#selectA").length > 0) {
+                    $("#selectA a").html($(this).text());
+                } else {
+                    $(".select-result dl").append(copyThisA.attr("id", "selectA"));
+                }
+            }
+        });
+
+        $("#select2 dd").click(function () {
+            $(this).addClass("selected").siblings().removeClass("selected");
+            if ($(this).hasClass("select-all")) {
+                $("#selectB").remove();
+            } else {
+                var copyThisB = $(this).clone();
+                if ($("#selectB").length > 0) {
+                    $("#selectB a").html($(this).text());
+                } else {
+                    $(".select-result dl").append(copyThisB.attr("id", "selectB"));
+                }
+            }
+        });
+
+        $("#select3 dd").click(function () {
+            $(this).addClass("selected").siblings().removeClass("selected");
+            if ($(this).hasClass("select-all")) {
+                $("#selectC").remove();
+            } else {
+                var copyThisC = $(this).clone();
+                if ($("#selectC").length > 0) {
+                    $("#selectC a").html($(this).text());
+                } else {
+                    $(".select-result dl").append(copyThisC.attr("id", "selectC"));
+                }
+            }
+        });
+
+
+        $("#selectA").live("click", function () {
+            $(this).remove();
+            $("#select1 .select-all").addClass("selected").siblings().removeClass("selected");
+        });
+
+        $("#selectB").live("click", function () {
+            $(this).remove();
+            $("#select2 .select-all").addClass("selected").siblings().removeClass("selected");
+        });
+
+        $("#selectC").live("click", function () {
+            $(this).remove();
+            $("#select3 .select-all").addClass("selected").siblings().removeClass("selected");
+        });
+
+
+        $(".select dd").live("click", function () {
+            if ($(".select-result dd").length > 1) {
+                $(".select-no").hide();
+            } else {
+                $(".select-no").show();
+            }
+        });
+
+    });
+
+</script>
+</html>

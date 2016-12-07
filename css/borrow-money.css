@@ -1,0 +1,503 @@
+.bd {
+    width: 100%;
+    /*height: 100%;*/
+    /*overflow:hidden;*/
+    background-color: #f3f3f3;
+}
+
+.banner {
+    height: 340px;
+    width: 100%;
+    background: url("../images/banner3.jpg") no-repeat center center;
+}
+
+.banner a.money-btns {
+    display: inline-block;
+    width: 178px;
+    height: 43px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 43px;
+    margin-top: 36px;
+    border-radius: 5px;
+    position: absolute;
+    opacity: 0;
+    right: -500px;
+    top: 210px;
+    border: 1px solid #32C1D3;
+    background-color: #32C1D3;
+}
+
+.banner a:hover {
+    /*font-size: 19px;*/
+}
+
+/*申请贷款*/
+
+.banner .apply .content {
+    position: absolute;
+    right: 300px;
+    border-radius: 5px;
+    background: url(../images/applybg.png);
+    color: #fff;
+    opacity: 0;
+    width: 310px;
+    height: 340px;
+    top: -500px;
+}
+
+.banner .apply .content h3 {
+    text-align: center;
+    margin: 8px 0 10px 0;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.banner .apply .content form {
+    text-align: center;
+}
+
+.banner .apply .content form input[type="radio"] {
+    padding-right:10px;
+    vertical-align: text-bottom;
+    margin-bottom: 1px;
+    *margin-bottom: -1px;  //兼容IE6，IE7
+}
+
+.apply .content .name,
+.apply .content .sum,
+.apply .content .tel,
+.apply .content .btn_apply {
+    width: 240px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.apply .content .sum input[type="text"],
+.apply .content .tel input[type="text"] {
+    height: 32px;
+    width: 240px;
+    line-height: 32px;
+    display: block;
+    font-size: 14px;
+    top: 25px;
+}
+
+.apply .content .name input[type="text"] {
+    height: 32px;
+    width: 120px;
+    line-height: 32px;
+    display: block;
+    font-size: 14px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.apply .content .sum .area input[type="text"] {
+    width: 110px;
+    float: right;
+    color: #999;
+    cursor: pointer;
+}
+
+.apply .content .sum input[type="text"] {
+    width: 120px;
+    float: left;
+}
+
+
+.apply .content label span {
+    font-size: 14px;
+    padding:0 0 0 3px;
+}
+.apply .content .name .sex {
+    position: relative;
+    top: 10px;
+}
+
+.apply .content label {
+    cursor: pointer;
+    width: 12px;
+    height: 20px;
+}
+
+.apply .content .sum {
+    position: relative;
+    z-index: 5;
+    height: 32px;
+}
+
+.apply .content .main-captcha {
+    width: 240px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.apply .content .btn_apply {
+    height: 40px;
+    top: 0px;
+
+}
+
+.btn_apply {
+    background-color: #009944;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #009944;
+    cursor: pointer;
+}
+
+.banner .apply .content form input[type="text"] {
+    border: 1px solid #ccc;
+    text-indent: 12px;
+}
+
+.apply .content .main-captcha input[type="text"] {
+    height: 32px;
+    width: 120px;
+    line-height: 32px;
+    font-size: 14px;
+    float: left;
+}
+
+.apply .content .main-captcha img {
+    width: 110px;
+    height: 34px;
+    float: right;
+    cursor: pointer;
+}
+
+
+/*业务*/
+.money-center {
+    width: 1200px;
+    /*height: 100%;*/
+    margin: 0 auto;
+}
+
+.money-center h1 {
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    line-height: 64px;
+}
+
+.money-center ul {
+    width: 100%;
+    height: 420px;
+    padding-bottom: 30px;
+}
+
+.money-center li {
+    float: left;
+    width: 590px;
+    height: 200px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+.money-pic {
+    width: 160px;
+    height: 160px;
+    margin: 19px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.money-pic img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+}
+
+.money-pic img:hover {
+    transform: scale(1.1);
+}
+
+.money-txt h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.money-txt p {
+    width: 270px;
+    height: 41px;
+    font-size: 14px;
+    color: #656565;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.money-txt a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    color: #32C1D3;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 36px;
+    border: 1px solid #32C1D3;
+    border-radius: 5px;
+}
+
+.money-txt a:hover {
+    color: #fff;
+    font-size: 16px;
+    background-color: #32C1D3;
+}
+
+/*3-步骤*/
+.money-step {
+    height: 426px;
+    width: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+.money-step .step-btn {
+    width: 150px;
+    height: 40px;
+    /*margin: 288px 0 0 450px;*/
+    margin: 288px auto 0;
+}
+
+.money-step .step-btn a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    color: #32C1D3;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #32C1D3;
+    border-radius: 5px;
+}
+
+.money-step .step-btn a:hover {
+    color: #fff;
+    font-size: 16px;
+    background-color: #32C1D3;
+}
+
+.money-step .steps {
+    width: 1156px;
+    /*height: 100%;*/
+    margin: 0 auto;
+}
+
+.money-step .steps h2 {
+    width: 241px;
+    height: 38px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 160px;
+    font-size: 28px;
+}
+
+.money-step .steps li {
+    text-align: center;
+    margin: 225px 104px 0 161px;
+    position: relative;
+    float: left;
+}
+
+.money-step .steps i,
+.money-step .steps em {
+    background: url("../images/my-account.png") no-repeat;
+}
+
+.money-step .steps i {
+    width: 80px;
+    height: 80px;
+    -webkit-transition: -webkit-transform 1s ease-out;
+    -moz-transition: -moz-transform 1s ease-out;
+    -o-transition: -o-transform 1s ease-out;
+    -ms-transition: -ms-transform 1s ease-out;
+
+}
+
+.money-step .steps i:hover {
+    -webkit-transform: rotateZ(360deg) scale(1.1);
+    -moz-transform: rotateZ(360deg) scale(1.1);
+    -o-transform: rotateZ(360deg) scale(1.1);
+    -ms-transform: rotateZ(360deg) scale(1.1);
+    transform: rotateZ(360deg) scale(1.1);
+}
+
+.money-step .steps i.step-icon-1 {
+    position: absolute;
+    top: -94px;
+    left: 14px;
+    background-position: -144px -176px;
+}
+
+.money-step .steps i.step-icon-2 {
+    position: absolute;
+    top: -94px;
+    left: 16px;
+    background-position: -144px -267px;
+}
+
+.money-step .steps i.step-icon-3 {
+    position: absolute;
+    top: -94px;
+    left: 28px;
+    background-position: -144px -358px;
+}
+
+.money-step .steps em {
+    width: 53px;
+    height: 29px;
+    background-position: -96px -128px;
+}
+
+.money-step .steps em.step-left {
+    position: absolute;
+    top: -70px;
+    right: -154px;
+
+}
+
+.money-step .steps em.step-right {
+    position: absolute;
+    top: -70px;
+    right: -154px;
+}
+
+.money-step .steps li span {
+    color: #333;
+    font-size: 16px;
+}
+
+/*3-步骤结束*/
+
+/*自述*/
+
+.success-state {
+    float: left;
+    height: 619px;
+    width: 100%;
+    background: url("../images/state-bg.png") no-repeat center center;
+}
+
+.success-state h2 {
+    width: 168px;
+    height: 38px;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 130px;
+    font-size: 28px;
+}
+
+.success-state ul {
+    width: 1158px;
+    /*height: 100%;*/
+    margin: 0 auto;
+}
+
+.success-state li {
+    width: 316px;
+    height: 400px;
+    padding: 20px;
+    float: left;
+    margin: 100px 15px 0;
+    background-color: #fff;
+}
+
+.success-state .state-pic {
+    width: 313px;
+    height: 200px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.success-state .state-pic img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+
+}
+
+.success-state .state-pic img:hover {
+    transform: scale(1.02);
+}
+
+.success-state li h4 {
+    font-size: 18px;
+    color: #000;
+    line-height: 50px;
+}
+
+.success-state li p {
+    color: #656565;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/*自述结束*/
+
+/*QA*/
+.money-QA {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+.money-QA-deta {
+    width: 1200px;
+    margin: 0 auto 50px;
+}
+
+.money-QA-deta h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 30px 0 18px 0;
+}
+
+.money-QA-deta li {
+    padding: 15px;
+    margin-bottom: 12px;
+    background-color: #F7F7F7;
+}
+
+.money-QA-deta li h3 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.money-QA-deta li p {
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.money-QA-deta li p.as {
+    text-indent: -20px;
+}
+
+.money-QA-deta li a {
+    width: 100%;
+    height: 100%;
+    color: #32C1D3;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.none-QA {
+    display: none;
+}
